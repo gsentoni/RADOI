@@ -1,0 +1,1085 @@
+{
+ "esquema": "arbol-impacto",
+ "version": "0.2",
+ "caso": {
+  "id": "carrera-1997",
+  "titulo": "Grafo de la carrera: el impacto del doctor (Doctorado UNS 1997)",
+  "autor": "Guillermo Blas Sentoni",
+  "orcid": "0009-0006-9088-3717",
+  "raiz": "doc97",
+  "fecha_corte": "2026-10-02",
+  "construccion": {
+   "construido_por": "Claude, a partir del CVar, del árbol del autor y de fuentes públicas",
+   "verificado_por": "Pendiente: verificación por un tercero",
+   "horas_estimadas": null,
+   "notas": "Segundo grafo para la charla RADoI del 16/10/2026. No modifica los números del grafo de la tesis. Donde el árbol y la fuente pública difieren (superficie del CeDIT, horas de viaje), manda la fuente pública."
+  }
+ },
+ "fuentes": [
+  {
+   "id": "F-tesis",
+   "tipo": "tesis",
+   "cita": "Sentoni, G. B. LNET: una estructura de aproximación para sistemas no lineales discretos. Tesis de doctorado en Control de Sistemas, Universidad Nacional del Sur, 1997. Dir.: O. Agamennoni.",
+   "fecha": "1997"
+  },
+  {
+   "id": "F-cvar",
+   "tipo": "registro_cv",
+   "cita": "CVar (Ministerio de Ciencia, Tecnología e Innovación), Sentoni, Guillermo Blas. Generado el 13/03/2024. Cargos de gestión, dirección de laboratorios, proyectos de transferencia, formación de recursos humanos, premios, prensa. Archivo del autor (autodeclarado).",
+   "fecha": "2024-03-13"
+  },
+  {
+   "id": "F-arbol",
+   "tipo": "testimonio",
+   "cita": "Árbol interactivo de la carrera (pestaña 'Career' de lnet-arbol-corregido.html), redactado por el autor.",
+   "fecha": "2026"
+  },
+  {
+   "id": "F-cedit",
+   "tipo": "pagina_producto",
+   "cita": "CeDIT UNLaM, 'Quiénes somos': espacio de encuentro academia-industria; becarios trabajan en proyectos de empresas dentro de la universidad; viajes de hasta 3 horas diarias y deserción como problemas que atiende; Premio Sadosky a la Calidad e Innovación Educativa y Premio LaTinaTec a la Innovación Educativa.",
+   "url": "https://cedit.unlam.edu.ar/quienes-somos.php",
+   "fecha": "2026-10-02"
+  },
+  {
+   "id": "F-gob2017",
+   "tipo": "comunicado",
+   "cita": "Gobierno de la Nación Argentina, 'Cómo funcionará el nuevo Polo Tecnológico en la UNLaM', 13/11/2017: inauguración del CeDIT, 2.200 m², 20 empresas previstas, 200 estudiantes por turno.",
+   "url": "https://www.argentina.gob.ar/noticias/como-funcionara-el-nuevo-polo-tecnologico-en-la-unlam",
+   "fecha": "2017-11-13"
+  },
+  {
+   "id": "F-lme2017",
+   "tipo": "prensa_sectorial",
+   "cita": "La Matanza Empresas, 'Cómo funciona el primer polo tecnológico universitario del país', 22/11/2017: más de 70 becarios, casi una docena de empresas incubadas; Premio LaTinaTec 2015 (La Habana) y Premio Sadosky 2015 (CESSI).",
+   "url": "https://lamatanzaempresas.com.ar/como-funciona-el-primer-polo-tecnologico-universitario-del-pais/",
+   "fecha": "2017-11-22"
+  },
+  {
+   "id": "F-jui2014",
+   "tipo": "comunicado",
+   "cita": "Programa de las 43 JAIIO (SADIO, 2014), comité de las JUI 2014: 'Sentoni, Guillermo (Sec. de Inv. y Transf. – Esc. de Ciencia y Tec. - UNSAM)'.",
+   "url": "https://43jaiio.sadio.org.ar/sites/default/files/Programa%2043%20JAIIO.pdf",
+   "fecha": "2014"
+  },
+  {
+   "id": "F-unsam-dipl",
+   "tipo": "comunicado",
+   "cita": "Noticias UNSAM, 'Diplomatura Universitaria en Software Testing', 16/10/2012. Verificado el título y la fecha; el cuerpo no fue accesible desde el entorno de trabajo.",
+   "url": "https://noticias.unsam.edu.ar/2012/10/16/diplomatura-universitaria-en-software-testing/",
+   "fecha": "2012-10-16"
+  },
+  {
+   "id": "F-unsam-sad",
+   "tipo": "comunicado",
+   "cita": "Noticias UNSAM, 'Los medios hablan del Premio Sadosky a la Inclusión Digital', 05/11/2012: 'La entrega del premio a la Diplomatura en Software Testing del Centro Universitario San Martín (CUSAM), que funciona en la Unidad Penitenciaria Nº 48 [...] fue elegida en la 12º edición de los premios que entrega la Cámara de Empresas de Software y Servicios Informáticos de Argentina como la mejor experiencia de inclusión digital.' Enlaza notas de Télam, iProfesional, Canal AR y otros medios.",
+   "url": "https://noticias.unsam.edu.ar/2012/11/05/los-medios-hablan-del-premio-sadosky-a-la-inclusion-digital/",
+   "fecha": "2012-11-05"
+  },
+  {
+   "id": "F-microlab",
+   "tipo": "pagina_producto",
+   "cita": "UNSAM, 'MICROLAB. Laboratorio para caracterización de elementos MEM' (página institucional de la ECyT). Verificado el título; el cuerpo no fue accesible.",
+   "url": "http://www.unsam.edu.ar/escuelas/ciencia/microlab/vision.htm"
+  },
+  {
+   "id": "F-microlab2018",
+   "tipo": "comunicado",
+   "cita": "Noticias UNSAM, 'Nuevo espacio para desarrollos electrónicos en el MicroLab', 24/04/2018 (el laboratorio sigue activo en 2018). Verificado el título.",
+   "url": "https://noticias.unsam.edu.ar/2018/04/24/nuevo-espacio-para-desarrollos-electronicos-en-el-microlab/",
+   "fecha": "2018-04-24"
+  },
+  {
+   "id": "F-cma2011",
+   "tipo": "articulo",
+   "cita": "Merletti, G.; Bonaparte, J.; Sentoni, G. 'Medición y análisis estadístico para la caracterización de RF-MEMS'. II Congreso de Microelectrónica Aplicada, UNLP, 2011; y Sentoni, G. 'Microlab, un caso de laboratorios con cuartos limpios'. I Congreso de Microelectrónica Aplicada, UNLaM, 2011 (ambos listados en el CVar; actas del II CMA en SEDICI, no leídas).",
+   "url": "http://sedici.unlp.edu.ar/bitstream/handle/10915/121961/Documento_completo.pdf?sequence=1",
+   "fecha": "2011"
+  },
+  {
+   "id": "F-tesis-tercero2023",
+   "tipo": "capitulo",
+   "cita": "Blanco, G. e Ynsfran, B. P. 'El Centro de Desarrollo Tecnológico del DIIT-UNLaM en el Conurbano Bonaerense y su influencia en la graduación', cap. 31, pp. 727–755 (Repositorio CyT UNLaM). Extracto de la tesis doctoral de G. Blanco, 'Centro de desarrollo tecnológico del conurbano bonaerense y su impacto en la carrera de ingeniería informática' (UNTREF, 2023); un tercero, sin relación con el autor. Encuestas y entrevistas: 95% de los becarios valora positiva la experiencia; 86% considera que el modelo mejora el rendimiento académico; 150 a 200 alumnos y 20 a 30 empresas; concluye que el centro 'colabora con minimizar el desgranamiento'. No mide tasas de graduación ni nombra a los creadores del centro.",
+   "url": "https://repositoriocyt.unlam.edu.ar/bitstream/123456789/2408/1/El%20Centro%20de%20Desarrollo%20Tecnol%C3%B3gico%20del%20DIIT-UNLaM%20en%20%20el%20Conurbano%20Bonaerense%20y%20su%20influencia%20%20en%20la%20graduaci%C3%B3n.pdf",
+   "fecha": "2023"
+  },
+  {
+   "id": "F-cessi2014",
+   "tipo": "capitulo",
+   "cita": "CESSI, Historia de la Industria Informática Argentina, ed. I. Daffra, Buenos Aires, 2014, ISBN 978-987-22152-8-6, p. 132 (Universidad Nacional de San Martín). Autoridades: 'Secretario de Inv. Tran.: Doctor Guillermo Sentoni'. En la misma página: 'Dictado de la Diplomatura de Software Testing en Entornos de Encierro (Premio Sadosky 2012, temática Inclusión Digital)', que 'se desarrolla en forma física en el Centro de Estudios Universitarios de la Unidad Penitenciaria N.º 48, CUSAM' y 'beneficia, tanto la adquisición de conocimientos y la reinserción de las personas en contexto de encierro, como el acrecentamiento de los lazos de la universidad con el medio social'. Esa descripción reproduce casi textualmente la nota del autor de 2012 (F-carta-cusam2012): no es una evaluación independiente.",
+   "fecha": "2014"
+  },
+  {
+   "id": "F-unsam-tecnopolis",
+   "tipo": "comunicado",
+   "cita": "Noticias UNSAM, 'Ciencia y Tecnología: la UNSAM ganó el premio Sadosky', 02/11/2012, por Paula Bistagnino: 'La iniciativa fue ideada por el doctor Guillermo Sentoni, secretario de Investigación y Transferencia de la Escuela de Ciencia y Tecnología de la UNSAM, y se puso en marcha a principios de 2012 con la empresa Liveware Is. Sa.' Sentoni recibió el premio el 01/11/2012 en Tecnópolis. Programa de tres meses, 'que a fin de año tendrá a sus primeros egresados'; los participantes 'podrán continuar desarrollando software testing en el penal como actividad rentada o estudiar una tecnicatura universitaria en programación'.",
+   "url": "https://noticias.unsam.edu.ar/2012/11/02/tecnopolis-la-unsam-gano-el-premio-sadosky-en-inclusion-digital/",
+   "fecha": "2012-11-02"
+  },
+  {
+   "id": "F-foto-sadosky2012",
+   "tipo": "comunicado",
+   "cita": "Fotografía de la entrega de los Premios Sadosky 2012 en Tecnópolis, publicada en la nota de Noticias UNSAM del 02/11/2012 ('Fotos gentileza CESSI').",
+   "url": "https://noticias.unsam.edu.ar/2012/11/02/tecnopolis-la-unsam-gano-el-premio-sadosky-en-inclusion-digital/",
+   "fecha": "2012-11-01"
+  },
+  {
+   "id": "F-reddi2016",
+   "tipo": "articulo",
+   "cita": "'Creación del Polo Tecnológico: Centro de Desarrollo de Tecnología de la Información y las Comunicaciones (CDTIC)', ReDDI, Revista Digital del DIIT-UNLaM, vol. 1, n.º 1, mayo de 2016 (fechado 04/04/2016). Sin firma en el texto; según el autor, lo escribió él. Dice: en 2011 la UNLaM firmó con el Ministerio de Producción bonaerense un convenio marco para construir un Polo Tecnológico 'pensado como el primer CDTIC en la zona', gestionado por la UNLaM y la CESSI; edificio de unos 4.200 m²; objetivo: más graduados y menos deserción por traslados; meta de 240 estudiantes; desde 2014 cuatro empresas y, a abril de 2016, unos veinte estudiantes trabajando en instalaciones provisorias. Al ser texto del propio autor, sus afirmaciones de impacto no son una evaluación independiente.",
+   "url": "https://reddi.unlam.edu.ar/index.php/ReDDi/article/download/5/36?inline=1",
+   "fecha": "2016-04-04"
+  },
+  {
+   "id": "F-acta-ecyt2012",
+   "tipo": "acta",
+   "cita": "Consejo de Escuela de la Escuela de Ciencia y Tecnología, UNSAM. 2.ª Reunión Ordinaria, Acta N.º 02/12, 19/04/2012, punto 9: 'Diplomatura penal San Martín (Dr. Guillermo Sentoni). El Dr. Guillermo Sentoni comenta que surgió la idea desde la Escuela para capacitar internos dentro del penal de San Martín: el objetivo es brindar una formación que les permita realizar trabajos tanto durante el tiempo de detención como al momento de recuperar la libertad. [...] con esta capacitación de 3 meses, pueden comenzar a trabajar en jornadas de 20 horas por semana.' Firmada por el decano y los consejeros. Acto de una universidad pública; copia en el archivo del autor, no publicada en internet.",
+   "fecha": "2012-04-19"
+  },
+  {
+   "id": "F-carta-cusam2012",
+   "tipo": "correspondencia",
+   "cita": "Nota del Dr. Guillermo Sentoni, Secretario de Investigación y Transferencia de la ECyT-UNSAM, 'Ref.: Diplomatura en Software Testing en el CUSAM', San Martín, 20/04/2012: proyecto conjunto de Liveware S.A., el CUSAM y la ECyT; población de condenados en una cárcel de máxima seguridad, con condenas medias de 5 años; 'la idea es que la gente en contexto de encierro se capacite, trabaje efectuando software testing y cobren por hacerlo'. Firmada por el autor (archivo del autor).",
+   "fecha": "2012-04-20"
+  },
+  {
+   "id": "F-video-sadosky2012",
+   "tipo": "comunicado",
+   "cita": "CESSI, video de los Premios Sadosky 2012, categoría Inclusión Digital, publicado en el sitio de la CESSI (copia descargada por el autor; no se verificó si sigue en línea). Zócalo: 'Guillermo Sentoni — Univ. San Martín y Liveware — Diplomatura Univ. en Software Testing en el Centro de Estudios Universitarios de la Unidad Penitenciaria Nº 48'.",
+   "fecha": "2012"
+  },
+  {
+   "id": "F-video-sadosky2015",
+   "tipo": "comunicado",
+   "cita": "CESSI, video de los Premios Sadosky 2015, categoría Calidad e Innovación Educativa, publicado en el sitio de la CESSI (copia descargada por el autor; no se verificó si sigue en línea). Zócalo: 'Guillermo Blas Sentoni — Centro de desarrollo en tecnologías de la información y las comunicaciones (CDTIC) — Universidad Nacional de La Matanza'.",
+   "fecha": "2015"
+  },
+  {
+   "id": "F-foto-latinatec",
+   "tipo": "comprobante",
+   "cita": "Fotografía de la entrega del Premio LaTinatec en La Habana, 2015: el trofeo en mano, con la pantalla 'Premio LaTinatec … un premio de valores' de fondo (archivo del autor).",
+   "fecha": "2015"
+  },
+  {
+   "id": "F-sadosky2007",
+   "tipo": "comprobante",
+   "cita": "Formulario de postulación al Premio Sadosky 2007 (CESSI), presentado por el CEO de XINEUS y G. Sentoni (UADE): transferencia de tecnología de la UADE a Rayos Pimax e incubación de XINEUS; Rayos Pimax 'financió enteramente el proyecto' y 'exporta un 15% de su producción'; cronología 03/2004–07/2007. Documento de los postulantes (archivo del autor); acredita la postulación, no el resultado.",
+   "fecha": "2007"
+  },
+  {
+   "id": "F-testimonio-s2007",
+   "tipo": "testimonio",
+   "cita": "Testimonio del autor (06/10/2026): XINEUS quedó entre los tres finalistas del Premio Sadosky 2007 y recibió un reconocimiento en el Senado; el premio lo ganó otro postulante. El reconocimiento del Senado consta en un documento que el autor conserva, no aportado. XINEUS obtuvo financiamiento para constituirse como empresa, pero no llegó a constituirse.",
+   "fecha": "2026-10-06"
+  },
+  {
+   "id": "F-placas",
+   "tipo": "comprobante",
+   "cita": "Placas de los tres trofeos (archivo del autor, fotografías): 'Premios Sadosky. Año 2012 - Temática Inclusión Digital. Premio a la Inclusión Digital. CESSI Argentina'; 'Premios Sadosky. Año 2015 - Calidad e Innovación Educativa. Premio a la Calidad e Innovación Educativa. CESSI Argentina'; 'Premio LaTinatec. Innovación Educativa. Institución Educativa UNLaM. FELTi 2015 Latinoamérica (Foro de Empresarios y Líderes en Tecnologías de la Información)'. Las placas no nombran al proyecto ni a las personas.",
+   "fecha": "2012–2015"
+  },
+  {
+   "id": "F-prensa2005",
+   "tipo": "prensa_sectorial",
+   "cita": "Difusión de junio a noviembre de 2005, listada en el CVar y en el trabajo de las JUI 2007: 'Desarrollan un sistema más económico para procesar radiografías' (La Nación, p. 12, 23/06/2005); 'Un aparato económico para sacar radiografías' (La Razón, p. 4, 24/06/2005); CONICET en los Medios, Boletín de la SeCyT, CADIME, SectorSalud.com y MotivAr (junio de 2005); tres radios; y 'Científicos Industria Argentina' (Telefé, 13/11/2005).",
+   "fecha": "2005"
+  },
+  {
+   "id": "F-conicet50",
+   "tipo": "capitulo",
+   "cita": "CONICET. Consejo Nacional de Investigaciones Científicas y Técnicas. República Argentina, 2006 (libro institucional por los 50 años del organismo). P. 223, nota de julio de 2005, con foto: 'Un estudiante de ingeniería y un investigador del Conicet desarrollaron un sistema informático de bajo costo para obtener, procesar y almacenar imágenes radiológicas [...] el producto obtenido por el equipo de la Universidad Argentina de la Empresa (UADE) puede competir con los distintos servicios que brindan los equipos importados [...] bajo la dirección de doctor Guillermo Sentoni'. Reproduce la nota de La Nación (no es confirmación independiente del hecho, pero acredita que lo hizo como investigador del CONICET). Pp. 144–145: en 2003 el Directorio crea la modalidad 'Investigador en Empresa' (Res. CONICET 452/03) para miembros de la Carrera del Investigador que trabajan en empresas privadas, 'priorizando la interacción con las pequeñas y medianas empresas de capital nacional'.",
+   "fecha": "2006"
+  },
+  {
+   "id": "F-conicet-ingreso2025",
+   "tipo": "comunicado",
+   "cita": "CONICET, Instructivo para la presentación de solicitudes de ingreso a la Carrera del Investigador, Convocatoria General 2025, Requisitos mínimos: 'Las personas que postulan deben haber obtenido al menos un Doctorado o formación equivalente, debidamente acreditada'. Norma vigente en 2025; para 2003–2004 el requisito se infiere.",
+   "fecha": "2025"
+  },
+  {
+   "id": "F-ley20464",
+   "tipo": "comunicado",
+   "cita": "Ley 20.464 (23/05/1973), Estatuto de las Carreras del Investigador Científico y Tecnológico y del Personal de Apoyo (CONICET). Art. 2 d): objeto de la Carrera, 'Fomentar la transferencia de los resultados de la tarea técnico científica a la sociedad'. Art. 4: lugares de trabajo (universidades, instituciones públicas, empresas del Estado, instituciones sin fines de lucro y 'f) Otros lugares que el CONICET considere de interés'). Art. 12 a): para ingresar como Asistente, 'ser egresado universitario o poseer una preparación equivalente a juicio del CONICET' (la ley no exige doctorado).",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/60507/texact.htm",
+   "fecha": "1973-05-23"
+  },
+  {
+   "id": "F-testimonio-ide",
+   "tipo": "testimonio",
+   "cita": "Testimonio del autor (06/10/2026): entró a Rayos Pimax por la modalidad de investigador del CONICET en empresa; sin doctorado no habría sido investigador del CONICET ni habría podido entrar.",
+   "fecha": "2026-10-06"
+  },
+  {
+   "id": "F-lanacion2005",
+   "tipo": "prensa_sectorial",
+   "cita": "'Desarrollan un sistema más económico para procesar radiografías. Puede reemplazar equipos de 10.000 dólares', La Nación, sección Ciencia, 23/06/2005: el desarrollo se hizo 'bajo la dirección del doctor Guillermo Sentoni', investigador del Conicet en el Centro de Estudios Avanzados de la UADE; 'La empresa Rayos Pimax se puso en contacto a través del Conicet con Sentoni'.",
+   "url": "https://www.lanacion.com.ar/ciencia/desarrollan-un-sistema-mas-economico-para-procesar-radiografias-nid715196/",
+   "fecha": "2005-06-23"
+  },
+  {
+   "id": "F-jui2007",
+   "tipo": "articulo",
+   "cita": "Delauro, M., Mancuso, E. y Sentoni, G. 'Desde el Triángulo de Sábato a la Incubadora'. Jornadas de Vinculación Universidad Industria (JUI), JAIIO, Mar del Plata, agosto de 2007. 'El proyecto se llevó a cabo en el Laboratorio de Procesamiento de Imágenes y Señales de la UADE [...] para desarrollar un producto que se está comercializando desde el año 2006 con exportaciones hacia Latinoamérica y hasta Angola'; financiado por Rayos Pimax, llegó a través del CONICET; 'Xineus es la exteriorización en proyecto de empresa de la interrelación generada entre UADE y la empresa Rayos Pimax', incubada en UADE como prueba piloto (octubre de 2006 a octubre de 2007). Coautoría del autor: sus afirmaciones de impacto no son una evaluación independiente.",
+   "fecha": "2007"
+  },
+  {
+   "id": "F-fortuna2006",
+   "tipo": "prensa_sectorial",
+   "cita": "'Radiografía de un buen negocio', revista Fortuna, n.º 145, p. 59, 13/03/2006: Rayos Pimax exporta el 15% de su producción a Bolivia, Chile, Ecuador y Angola; 'Mediante un convenio con la Universidad Argentina de la Empresa (UADE), dos investigadores de esa casa de estudios están desarrollando sistemas de digitalización de imágenes'.",
+   "fecha": "2006-03-13"
+  }
+ ],
+ "nodos": [
+  {
+   "id": "doc97",
+   "tipo": "tesis",
+   "titulo": "Doctorado en Control de Sistemas (UNS, 1997): el doctor como portador de capacidades",
+   "etiqueta": "Doctorado 1997",
+   "anio": 1997,
+   "ambito": "academico",
+   "estado": "activo",
+   "evidencia": "A",
+   "fuentes": [
+    "F-tesis"
+   ],
+   "activo_en": 2026,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "UNS",
+    "PLAPIQUI",
+    "CONICET"
+   ]
+  },
+  {
+   "id": "labuade",
+   "tipo": "laboratorio",
+   "titulo": "Laboratorio de Procesamiento de Señales e Imágenes (UADE), creado y dirigido",
+   "etiqueta": "Lab. UADE",
+   "anio": 2001,
+   "ambito": "academico",
+   "estado": "desconocido",
+   "evidencia": "A",
+   "fuentes": [
+    "F-jui2007",
+    "F-cvar"
+   ],
+   "activo_en": 2008,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "UADE",
+    "CONICET"
+   ]
+  },
+  {
+   "id": "pimax",
+   "tipo": "transferencia",
+   "titulo": "Sistema de digitalización de imágenes para hemodinamia (Rayos Pimax S.A.)",
+   "etiqueta": "Pimax hemodin.",
+   "anio": 2004,
+   "ambito": "industria",
+   "estado": "inactivo",
+   "evidencia": "A",
+   "fuentes": [
+    "F-lanacion2005",
+    "F-jui2007",
+    "F-fortuna2006",
+    "F-prensa2005",
+    "F-cvar"
+   ],
+   "activo_en": 2008,
+   "paises": [
+    "AR",
+    "AO"
+   ],
+   "organizaciones": [
+    "Rayos Pimax S.A.",
+    "UADE"
+   ],
+   "resultados": [
+    {
+     "descripcion": "Difusión en dos diarios, cinco medios web, tres radios y en 'Científicos Industria Argentina' (Telefé)",
+     "anio": 2005,
+     "evidencia": "A",
+     "fuentes": [
+      "F-prensa2005",
+      "F-jui2007"
+     ]
+    },
+    {
+     "descripcion": "Producto comercializado desde 2006, con exportaciones a Latinoamérica y Angola (según sus desarrolladores)",
+     "anio": 2006,
+     "evidencia": "A",
+     "fuentes": [
+      "F-jui2007",
+      "F-fortuna2006"
+     ]
+    }
+   ],
+   "impacto_social": {
+    "descripcion": "Equipo de diagnóstico cardiológico por imágenes de producción local, que sustituye importados a menor costo ('puede reemplazar equipos de 10.000 dólares')",
+    "evidencia": "A",
+    "fuentes": [
+     "F-lanacion2005",
+     "F-jui2007",
+     "F-prensa2005"
+    ],
+    "nivel": "documentado"
+   }
+  },
+  {
+   "id": "telecom",
+   "tipo": "formacion",
+   "titulo": "Plan de la carrera de Ingeniería en Telecomunicaciones (UADE)",
+   "etiqueta": "Ing. Telecom.",
+   "anio": 2002,
+   "ambito": "academico",
+   "estado": "desconocido",
+   "evidencia": "C",
+   "fuentes": [
+    "F-arbol"
+   ],
+   "anio_nota": "período UADE 2000–2007; año exacto sin documento",
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "UADE"
+   ],
+   "resultados": [
+    {
+     "descripcion": "Acreditada por CONEAU por 6 años",
+     "anio": 2007,
+     "evidencia": "C",
+     "fuentes": [
+      "F-arbol"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rrhh",
+   "tipo": "formacion",
+   "titulo": "Formación de investigadores: 14 becas dirigidas, 2 tesis doctorales, 2 de maestría y 8 de grado",
+   "etiqueta": "RRHH formados",
+   "anio": 2002,
+   "ambito": "academico",
+   "estado": "activo",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "activo_en": 2024,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "UADE",
+    "UNSAM",
+    "UNLaM"
+   ],
+   "resultados": [
+    {
+     "descripcion": "Tesis doctoral dirigida (ECyT-UNSAM, 2013–2016)",
+     "anio": 2016,
+     "evidencia": "B",
+     "fuentes": [
+      "F-cvar"
+     ]
+    },
+    {
+     "descripcion": "Tesis doctoral dirigida (UNLaM, 2020–2024)",
+     "anio": 2024,
+     "evidencia": "B",
+     "fuentes": [
+      "F-cvar"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ido",
+   "tipo": "formacion",
+   "titulo": "Curso 'Tópicos sobre teoría y práctica en comunicaciones' para el Instituto Dominicano de las Telecomunicaciones (Banco Mundial)",
+   "etiqueta": "Curso INDOTEL",
+   "anio": 2001,
+   "ambito": "gobierno",
+   "estado": "inactivo",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "activo_en": 2001,
+   "paises": [
+    "DO"
+   ],
+   "organizaciones": [
+    "INDOTEL",
+    "Banco Mundial"
+   ]
+  },
+  {
+   "id": "zflp",
+   "tipo": "politica",
+   "titulo": "Propuesta de polo tecnológico en la Zona Franca La Plata",
+   "etiqueta": "Polo ZF La Plata",
+   "anio": 2001,
+   "ambito": "industria",
+   "estado": "inactivo",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "activo_en": 2001,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "Empresas de la Zona Franca Ensenada-La Plata"
+   ]
+  },
+  {
+   "id": "polotic",
+   "tipo": "politica",
+   "titulo": "Polo de Desarrollo de TICs de la UNLaM (planificación, con CESSI), desde la Prosecretaría de CyT",
+   "etiqueta": "Polo TIC UNLaM",
+   "anio": 2009,
+   "ambito": "academico",
+   "estado": "inactivo",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "activo_en": 2011,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "UNLaM",
+    "CESSI"
+   ]
+  },
+  {
+   "id": "cedit",
+   "tipo": "centro",
+   "titulo": "CeDIT: Centro de Desarrollo e Investigaciones Tecnológicas (UNLaM), empresas de software dentro de la universidad",
+   "etiqueta": "CeDIT UNLaM",
+   "anio": 2015,
+   "ambito": "academico",
+   "estado": "activo",
+   "evidencia": "A",
+   "fuentes": [
+    "F-cedit",
+    "F-gob2017",
+    "F-lme2017"
+   ],
+   "activo_en": 2026,
+   "anio_nota": "proyecto desde 2015 (CVar); edificio inaugurado en noviembre de 2017",
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "UNLaM"
+   ],
+   "resultados": [
+    {
+     "descripcion": "Premio Sadosky 2015 a la Calidad e Innovación Educativa (CESSI)",
+     "anio": 2015,
+     "evidencia": "A",
+     "fuentes": [
+      "F-cedit",
+      "F-lme2017",
+      "F-placas"
+     ]
+    },
+    {
+     "descripcion": "Premio LaTinaTec 2015 a la Innovación Educativa (FELTi 2015, La Habana)",
+     "anio": 2015,
+     "evidencia": "A",
+     "fuentes": [
+      "F-cedit",
+      "F-lme2017",
+      "F-placas",
+      "F-foto-latinatec"
+     ]
+    },
+    {
+     "descripcion": "Edificio de 2.200 m² inaugurado; 20 empresas previstas y 200 estudiantes por turno",
+     "anio": 2017,
+     "evidencia": "A",
+     "fuentes": [
+      "F-gob2017"
+     ]
+    },
+    {
+     "descripcion": "Abril de 2016: unos veinte estudiantes trabajando en cuatro empresas, en instalaciones provisorias",
+     "anio": 2016,
+     "evidencia": "A",
+     "fuentes": [
+      "F-reddi2016"
+     ]
+    },
+    {
+     "descripcion": "Más de 70 becarios y casi una docena de empresas incubadas",
+     "anio": 2017,
+     "evidencia": "A",
+     "fuentes": [
+      "F-lme2017"
+     ]
+    },
+    {
+     "descripcion": "Estudio de terceros: 95% de los becarios valora positiva la experiencia y 86% cree que mejora su rendimiento; 150 a 200 alumnos y 20 a 30 empresas",
+     "anio": 2023,
+     "evidencia": "A",
+     "fuentes": [
+      "F-tesis-tercero2023"
+     ]
+    }
+   ],
+   "impacto_social": {
+    "descripcion": "Estudiantes del conurbano trabajan en empresas dentro del campus en lugar de viajar hasta 3 horas por día; un estudio de terceros (tesis doctoral, 2023) concluye que ayuda a reducir el desgranamiento, con datos de percepción",
+    "evidencia": "A",
+    "fuentes": [
+     "F-cedit",
+     "F-tesis-tercero2023"
+    ],
+    "nivel": "evaluado"
+   }
+  },
+  {
+   "id": "tesis_tercero",
+   "tipo": "publicacion",
+   "titulo": "Tesis doctoral de un tercero (UNTREF, 2023) sobre el impacto del CeDIT en la carrera de ingeniería informática, y su capítulo en el repositorio UNLaM",
+   "etiqueta": "Tesis doctoral",
+   "anio": 2023,
+   "ambito": "academico",
+   "estado": "inactivo",
+   "evidencia": "A",
+   "fuentes": [
+    "F-tesis-tercero2023"
+   ],
+   "activo_en": 2023,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "UNTREF",
+    "UNLaM"
+   ]
+  },
+  {
+   "id": "microlab",
+   "tipo": "laboratorio",
+   "titulo": "MicroLab: laboratorio de caracterización de MEMS con sala limpia (ECyT-UNSAM, financiado con CONAE)",
+   "etiqueta": "MicroLab UNSAM",
+   "anio": 2010,
+   "ambito": "academico",
+   "estado": "desconocido",
+   "evidencia": "A",
+   "fuentes": [
+    "F-microlab",
+    "F-microlab2018",
+    "F-cvar"
+   ],
+   "activo_en": 2018,
+   "anio_nota": "director desde 12/2008; proyecto de I+D 03/2010–03/2015 (CVar)",
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "UNSAM",
+    "CONAE"
+   ],
+   "resultados": [
+    {
+     "descripcion": "Dos trabajos en congresos de microelectrónica aplicada",
+     "anio": 2011,
+     "evidencia": "B",
+     "fuentes": [
+      "F-cma2011",
+      "F-cvar"
+     ]
+    },
+    {
+     "descripcion": "Primer lote de MEMS para ensayo satelital medido con CONAE",
+     "anio": 2014,
+     "evidencia": "C",
+     "fuentes": [
+      "F-arbol"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "imer",
+   "tipo": "transferencia",
+   "titulo": "Medición de permeabilidad relativa y tangente de pérdida para IMER (PyME de antenas y componentes satelitales)",
+   "etiqueta": "Transfer. IMER",
+   "anio": 2013,
+   "ambito": "industria",
+   "estado": "inactivo",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "activo_en": 2015,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "IMER",
+    "UNSAM"
+   ]
+  },
+  {
+   "id": "dipl",
+   "tipo": "formacion",
+   "titulo": "Diplomatura Universitaria en Software Testing (ECyT-UNSAM, con Liveware)",
+   "etiqueta": "Diplom. testing",
+   "anio": 2012,
+   "ambito": "academico",
+   "estado": "inactivo",
+   "evidencia": "A",
+   "fuentes": [
+    "F-acta-ecyt2012",
+    "F-unsam-dipl",
+    "F-cessi2014",
+    "F-cvar"
+   ],
+   "activo_en": 2013,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "UNSAM",
+    "Liveware"
+   ],
+   "resultados": [
+    {
+     "descripcion": "Premio Sadosky 2012 a la Inclusión Digital (CESSI): 'la mejor experiencia de inclusión digital'",
+     "anio": 2012,
+     "evidencia": "A",
+     "fuentes": [
+      "F-unsam-tecnopolis",
+      "F-unsam-sad",
+      "F-cessi2014",
+      "F-placas",
+      "F-foto-sadosky2012",
+      "F-cvar"
+     ]
+    }
+   ],
+   "impacto_social": {
+    "descripcion": "Formación en un oficio de la industria del software para personas privadas de libertad, para trabajar durante la detención y al recuperar la libertad: dictada en el CUSAM, dentro de la Unidad Penitenciaria Nº 48, una cárcel de máxima seguridad; 3 meses de capacitación para trabajar 20 horas por semana",
+    "evidencia": "A",
+    "fuentes": [
+     "F-unsam-tecnopolis",
+     "F-acta-ecyt2012",
+     "F-unsam-sad",
+     "F-carta-cusam2012",
+     "F-cessi2014"
+    ],
+    "nivel": "documentado"
+   }
+  },
+  {
+   "id": "caprinos",
+   "tipo": "transferencia",
+   "titulo": "Laboratorio de fertilización in vitro para caprinos, financiado por la Universidad de Los Lagos (Chile)",
+   "etiqueta": "FIV caprinos CL",
+   "anio": 2013,
+   "ambito": "academico",
+   "estado": "inactivo",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "activo_en": 2014,
+   "paises": [
+    "CL",
+    "AR"
+   ],
+   "organizaciones": [
+    "UNSAM",
+    "Universidad de Los Lagos"
+   ],
+   "impacto_social": {
+    "descripcion": "Mejora genética de cabras de productores de subsistencia en Tarapacá y capacitación de personal chileno",
+    "evidencia": "C",
+    "fuentes": [
+     "F-arbol"
+    ],
+    "nivel": "declarado"
+   }
+  },
+  {
+   "id": "xineus",
+   "tipo": "empresa",
+   "titulo": "XINEUS: proyecto de empresa de procesamiento de imágenes surgido de la transferencia a Rayos Pimax, incubado en UADE (prueba piloto, octubre de 2006 a octubre de 2007); según el autor, obtuvo financiamiento para constituirse, pero no llegó a constituirse como empresa",
+   "etiqueta": "XINEUS",
+   "anio": 2006,
+   "ambito": "industria",
+   "estado": "inactivo",
+   "evidencia": "A",
+   "fuentes": [
+    "F-jui2007",
+    "F-testimonio-s2007"
+   ],
+   "activo_en": 2007,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "UADE"
+   ],
+   "resultados": [
+    {
+     "descripcion": "Postulación al Sadosky 2007 (CESSI), con la UADE",
+     "anio": 2007,
+     "evidencia": "B",
+     "fuentes": [
+      "F-sadosky2007"
+     ]
+    },
+    {
+     "descripcion": "Finalista del Sadosky 2007 (uno de tres; no ganó) y reconocimiento en el Senado",
+     "anio": 2007,
+     "evidencia": "C",
+     "fuentes": [
+      "F-testimonio-s2007"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "medpole",
+   "tipo": "politica",
+   "titulo": "Proyecto de Polo de Medicina Traslacional y productos médicos (UNLaM)",
+   "etiqueta": "Polo Med. UNLaM",
+   "anio": 2015,
+   "ambito": "academico",
+   "estado": "inactivo",
+   "evidencia": "C",
+   "fuentes": [
+    "F-arbol"
+   ],
+   "activo_en": 2017,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "UNLaM"
+   ]
+  },
+  {
+   "id": "gyl",
+   "tipo": "transferencia",
+   "titulo": "Dirección de I+D en GyL S.A. (proyectos del programa Iberoeka)",
+   "etiqueta": "I+D GyL",
+   "anio": 2016,
+   "ambito": "industria",
+   "estado": "inactivo",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "activo_en": 2018,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "GyL S.A."
+   ]
+  },
+  {
+   "id": "lucem",
+   "tipo": "empresa",
+   "titulo": "Lucem Radix: consultora de IA aplicada (cofundada)",
+   "etiqueta": "Lucem Radix",
+   "anio": 2019,
+   "ambito": "industria",
+   "estado": "activo",
+   "evidencia": "C",
+   "fuentes": [
+    "F-arbol"
+   ],
+   "activo_en": 2026,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "Lucem Radix"
+   ]
+  },
+  {
+   "id": "inti",
+   "tipo": "politica",
+   "titulo": "Área de Industria 4.0 del INTI: hoja de ruta de I+D y de formación",
+   "etiqueta": "INTI Ind. 4.0",
+   "anio": 2020,
+   "ambito": "gobierno",
+   "estado": "desconocido",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "activo_en": 2023,
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "INTI"
+   ]
+  }
+ ],
+ "aristas": [
+  {
+   "desde": "doc97",
+   "hacia": "labuade",
+   "tipo": "capacidad",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "nota": "CVar: Director del Laboratorio, 02/2001–05/2008, como investigador CONICET en UADE."
+  },
+  {
+   "desde": "doc97",
+   "hacia": "pimax",
+   "tipo": "capacidad",
+   "evidencia": "A",
+   "fuentes": [
+    "F-lanacion2005",
+    "F-conicet50",
+    "F-jui2007",
+    "F-conicet-ingreso2025",
+    "F-ley20464",
+    "F-testimonio-ide",
+    "F-cvar"
+   ],
+   "nota": "La Nación (23/06/2005): el desarrollo se hizo 'bajo la dirección del doctor Guillermo Sentoni'; Rayos Pimax 'se puso en contacto a través del Conicet con Sentoni'. El libro del CONICET (2006, p. 223) lo presenta como 'un investigador del Conicet' (A). La modalidad Investigador en Empresa existía desde 2003 y priorizaba pymes nacionales (A, mismo libro); la Ley 20.464 no exige doctorado para ingresar a la Carrera (pide título universitario o preparación equivalente) y no prevé empresas privadas como lugar de trabajo salvo por su art. 4 f); el doctorado es requisito de las bases de las convocatorias (A para 2025; para 2004, según el autor, el mismo). Que el autor entró por esa modalidad es testimonio (C)."
+  },
+  {
+   "desde": "labuade",
+   "hacia": "pimax",
+   "tipo": "ingenieria",
+   "evidencia": "A",
+   "fuentes": [
+    "F-jui2007",
+    "F-fortuna2006",
+    "F-cvar"
+   ],
+   "nota": "JUI 2007: 'El proyecto se llevó a cabo en el Laboratorio de Procesamiento de Imágenes y Señales de la UADE'; Fortuna (2006): convenio de Rayos Pimax con la UADE para desarrollar sistemas de digitalización de imágenes."
+  },
+  {
+   "desde": "pimax",
+   "hacia": "xineus",
+   "tipo": "comercializacion",
+   "evidencia": "A",
+   "fuentes": [
+    "F-jui2007"
+   ],
+   "nota": "JUI 2007: 'Xineus es la exteriorización en proyecto de empresa de la interrelación generada entre UADE y la empresa Rayos Pimax'; la continúa un integrante del proyecto."
+  },
+  {
+   "desde": "labuade",
+   "hacia": "rrhh",
+   "tipo": "formacion",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "nota": "Nueve de las catorce becas dirigidas fueron en UADE (CVar)."
+  },
+  {
+   "desde": "doc97",
+   "hacia": "telecom",
+   "tipo": "capacidad",
+   "evidencia": "C",
+   "fuentes": [
+    "F-arbol"
+   ],
+   "nota": "Solo en el árbol del autor; falta un documento de UADE o CONEAU."
+  },
+  {
+   "desde": "doc97",
+   "hacia": "ido",
+   "tipo": "capacidad",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ]
+  },
+  {
+   "desde": "doc97",
+   "hacia": "zflp",
+   "tipo": "capacidad",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ]
+  },
+  {
+   "desde": "zflp",
+   "hacia": "polotic",
+   "tipo": "derivacion_conceptual",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "nota": "Misma idea nombrada ('polo tecnológico'), mismo autor, 2001 y 2009."
+  },
+  {
+   "desde": "doc97",
+   "hacia": "polotic",
+   "tipo": "capacidad",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "nota": "CVar: Prosecretario de CyT UNLaM 11/2008–06/2011; asesoramiento 'Polo de Desarrollo de TICs' 2009–2011 (CESSI)."
+  },
+  {
+   "desde": "polotic",
+   "hacia": "cedit",
+   "tipo": "derivacion_conceptual",
+   "evidencia": "A",
+   "fuentes": [
+    "F-reddi2016",
+    "F-cvar",
+    "F-cedit"
+   ],
+   "nota": "ReDDI (UNLaM, 2016): el polo del convenio de 2011, gestionado con la CESSI, 'fue pensado como el primer CDTIC'. Lo afirma una publicación de la universidad."
+  },
+  {
+   "desde": "cedit",
+   "hacia": "tesis_tercero",
+   "tipo": "documentacion",
+   "evidencia": "A",
+   "fuentes": [
+    "F-tesis-tercero2023"
+   ],
+   "nota": "Un tercero estudia el CeDIT en una tesis doctoral: el doctorado de 1997 termina generando objeto de estudio para otro doctorado."
+  },
+  {
+   "desde": "doc97",
+   "hacia": "cedit",
+   "tipo": "capacidad",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar",
+    "F-video-sadosky2015"
+   ],
+   "nota": "CVar: Director del Proyecto CDTIC, UNLaM, 03/2015–04/2019. El video de la CESSI de los Premios Sadosky 2015 (publicado) lo presenta por nombre como la persona del CDTIC de la UNLaM en el proyecto premiado: eso es A. Que lo creó o dirigió sigue siendo inferido (B): ningún documento público usa la palabra director."
+  },
+  {
+   "desde": "doc97",
+   "hacia": "microlab",
+   "tipo": "capacidad",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar",
+    "F-cma2011"
+   ],
+   "nota": "CVar: Director Titular del Laboratorio Microlab 12/2008–03/2015; ponencia propia 'Microlab, un caso de laboratorios con cuartos limpios' (2011)."
+  },
+  {
+   "desde": "microlab",
+   "hacia": "imer",
+   "tipo": "despliegue",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "nota": "CVar: 'Ejecutado en MICROLAB; financiado por MICROLAB e IMER'."
+  },
+  {
+   "desde": "microlab",
+   "hacia": "rrhh",
+   "tipo": "formacion",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar",
+    "F-cma2011"
+   ],
+   "nota": "Tesis doctoral dirigida (2013–2016) y ponencia conjunta sobre RF-MEMS (2011)."
+  },
+  {
+   "desde": "doc97",
+   "hacia": "dipl",
+   "tipo": "capacidad",
+   "evidencia": "A",
+   "fuentes": [
+    "F-unsam-tecnopolis",
+    "F-acta-ecyt2012",
+    "F-video-sadosky2012",
+    "F-carta-cusam2012",
+    "F-cessi2014",
+    "F-cvar"
+   ],
+   "nota": "Noticias UNSAM (02/11/2012), público: 'La iniciativa fue ideada por el doctor Guillermo Sentoni, secretario de Investigación y Transferencia'. Lo confirman el Acta N.º 02/12 del Consejo de Escuela (19/04/2012), donde él la presenta, y el video de la CESSI de 2012."
+  },
+  {
+   "desde": "doc97",
+   "hacia": "caprinos",
+   "tipo": "capacidad",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar",
+    "F-cessi2014",
+    "F-jui2014"
+   ],
+   "nota": "CVar: Director del proyecto de transferencia, 02/2013–12/2014, ejecutado en la ECyT-UNSAM."
+  },
+  {
+   "desde": "doc97",
+   "hacia": "rrhh",
+   "tipo": "capacidad",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ]
+  },
+  {
+   "desde": "doc97",
+   "hacia": "medpole",
+   "tipo": "capacidad",
+   "evidencia": "C",
+   "fuentes": [
+    "F-arbol"
+   ]
+  },
+  {
+   "desde": "doc97",
+   "hacia": "gyl",
+   "tipo": "capacidad",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "nota": "CVar: Director de I+D en GyL S.A., 10/2016–09/2018. Los nombres de los proyectos Iberoeka están solo en el árbol (C)."
+  },
+  {
+   "desde": "doc97",
+   "hacia": "lucem",
+   "tipo": "capacidad",
+   "evidencia": "C",
+   "fuentes": [
+    "F-arbol"
+   ]
+  },
+  {
+   "desde": "doc97",
+   "hacia": "inti",
+   "tipo": "capacidad",
+   "evidencia": "B",
+   "fuentes": [
+    "F-cvar"
+   ],
+   "nota": "CVar: consultor científico de Industria 4.0, INTI, desde 07/2020."
+  }
+ ]
+}
