@@ -986,5 +986,92 @@ instalarSwipe(document, null);
   document.addEventListener('fullscreenchange', function(){ document.body.classList.toggle('es-fs', !!document.fullscreenElement); setTimeout(function(){ try { window.dispatchEvent(new Event('resize')); } catch(e) {} }, 100); });
 })();
 </script>
+
+<style>
+.btn-voz{width:44px;height:44px;border-radius:50%;border:none;background:var(--band,#4195BA);color:#fff;font-size:18px;line-height:1;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.25);border:2px solid #fff;display:flex;align-items:center;justify-content:center}
+.btn-voz:hover{filter:brightness(1.08)} .btn-voz:focus-visible{outline:3px solid #0E3A52;outline-offset:2px}
+.btn-voz.on{background:#0E3A52}
+.btn-voz svg{width:20px;height:20px;fill:currentColor}
+</style>
+<script>
+/* Lectura en voz alta de la explicación de cada lámina (síntesis de voz del navegador). */
+(function(){
+  var NARR = ["Bienvenidos. Esta es la charla del doctor Guillermo Sentoni para la Red Argentina de Posgrados en Ingeniería, de Confedi. La pregunta es simple de plantear y difícil de responder: ¿cómo se evalúa el impacto de un doctorado? La propuesta es pasar del currículum de producción a la trayectoria de impacto, y mostrarlo con una prueba de concepto.", "La charla tiene dos partes y una agenda. Primero, el concepto: qué queremos medir, y por qué el currículum no alcanza. Después, la aplicación: un caso real, con su árbol, sus datos y sus indicadores, primero de la tesis y después del doctor. Y al final, qué podría hacer la red para llevar esto a escala.", "En la Argentina, la producción de un investigador se registra en el Ce Var y se evalúa con Sigeva. Los dos responden muy bien a una pregunta: ¿qué produjo esta persona? Pero no están diseñados para otra, que es la que importa cuando hablamos de impacto: ¿qué pasó después con lo que produjo? Y sin embargo, desde mil novecientos setenta y tres, el estatuto de la Carrera del Investigador le fija como objetivo fomentar la transferencia de los resultados a la sociedad. ", "Veamos un caso real, el del propio autor. A la izquierda, lo que registra su Ce Var: dos patentes de Estados Unidos, con su vigencia, y en otra sección, asesorías a empresas, sin ningún vínculo con esas patentes. A la derecha, lo que pasó. En 1997, la tesis doctoral en la Universidad Nacional del Sur: veintinueve años de trayectoria. En 1998 y en 2001, las dos patentes, asignadas a Aspen Tec. Entre 2002 y 2004, el controlador Aspen Apollo, basado en esa tecnología patentada, llegó a veintiocho plantas de polímeros en el mundo. En 2007, en una planta de Sinopec en Shanghái, redujo un setenta por ciento la variabilidad del proceso. Y hoy, en 2026, la línea sigue activa en dos ramas: en la industria, y en el software abierto de captura de carbono del Departamento de Energía de Estados Unidos.", "Las piezas están en el currículum; la conexión, no. Se pierde la cadena: tesis, patentes y asesorías figuran en secciones distintas. Se pierde la persistencia: el registro termina en una fecha de vigencia, pero el uso industrial sigue. Y se pierde el alcance: una patente adoptada en planta y una patente sin uso se registran exactamente igual.", "Por eso proponemos otra representación: un árbol de impacto. Cada nodo es un resultado, con su tipo: una tesis, un artículo, una patente, un producto, una planta. Cada arista es una derivación, con su fuente. Y el eje es el tiempo, sin recortes. Es una representación antes que una medida.", "De esa representación salen tres ideas para evaluar impacto. Primera, el impacto diferido: llega tarde y puede durar décadas, así que se mide con rezago y persistencia, no en ventanas de tres o cinco años. Segunda, la derivación: un resultado vale por lo que deriva de él, así que se mide la cadena, desde la tesis hasta el uso. Tercera, el grado de evidencia: cada conexión declara cuán segura es. A, si un documento lo afirma explícitamente. B, si se infiere de documentos. C, si solo lo sostiene el testimonio del autor. Queda una pregunta abierta, que es ponderar: ¿una patente vale más que un paper? Declarar pesos no alcanza; hace falta un criterio.", "Este es el árbol de impacto de la tesis Ele Net, de 1997 a hoy. Pueden recorrerlo: tocando un nodo se abre su ficha, con su fecha y sus fuentes. La pregunta para quien lo mira es la del título: ¿qué muestra esto que un currículum no muestra?", "Aparecen tres cosas que el currículum lineal no registra. El tiempo: veintinueve años desde la tesis, y la línea sigue activa en la industria. La derivación: cada resultado conectado con su origen, y cada conexión con su fuente. Y la persistencia: con las patentes ya vencidas, la línea sigue viva en la industria y en el software abierto del Departamento de Energía.", "Algo que aprendimos al armarlo: construir el árbol también es evaluar. Obliga a verificar: al buscar las fuentes apareció un error propio, un resultado fechado en 2025 que en realidad era de 2007. Separa lo documentado de lo recordado: varias afirmaciones quedaron en suspenso hasta encontrar su fuente, y otras hubo que moderarlas. Muestra que la evidencia está en otro lado: en patentes, comunicados, bases de conocimiento de empresas y repositorios de software, que hoy ningún sistema de evaluación mira. Y tiene un costo, que hay que planificar si se lo quiere aplicar a escala.", "Para poder calcular, el mismo árbol se escribe como datos. Un ejemplo: Aspen Apollo es un nodo, con su año, su ámbito y su fuente. El Aspen Nonlinear Controller, que AspenTech sigue vendiendo hoy, es otro nodo. Y el vínculo entre los dos es de comercialización, con evidencia B: la base de conocimiento de AspenTech explica cómo migrar los controladores Apollo, pero no dice con todas las letras que el producto actual sea su sucesor. Con un formato común para cualquier egresado, un script abierto calcula los indicadores, siempre de la misma manera.", "Este es el perfil del caso: seis lecturas separadas, sin sumarlas en un número. La primera adopción externa llegó a los dos años de la tesis. La línea persiste veintinueve años después, con dos nodos activos hoy. El alcance: seis países, diez organizaciones, y los tres ámbitos, academia, industria y gobierno. Cinco eslabones de profundidad, desde la tesis hasta una planta en China, y todos con evidencia A. Catorce de los veintidós resultados están fuera de la academia; doce de ellos son impactos, y cada uno tiene su cadena documentada desde la tesis.", "Acá está la trayectoria en el tiempo, separada en academia, industria y gobierno. El trazo de cada línea indica la evidencia: continuo es A, rayado es B, punteado es C. Lo que más llama la atención está en la franja de industria: en 1999, dos años después de la tesis, el controlador Aspen Target ya se aplicaba para controlar las emisiones de óxidos de nitrógeno de una central eléctrica. Y no lo dice solo la empresa: en dos mil dieciocho, un laboratorio nacional de Estados Unidos escribió que ese controlador industrial usaba el modelo original de mil novecientos noventa y ocho. Y a la derecha, veintinueve años después, dos líneas siguen activas. Si tocan un nodo, se ilumina su cadena desde la tesis, y también las otras vías por las que ese resultado llega.", "¿Qué tan firme es cada cadena? La evidencia de una cadena es la de su eslabón más débil, y un resultado que llega por más de una vía vale por la más firme. Once de los doce resultados tienen al menos una cadena documentada de punta a punta, con evidencia A. A fines de septiembre de dos mil veintiséis eran seis de once, y el instrumento señalaba qué documentar primero: el paso hacia Aspen Apollo. Al buscar esa prueba apareció una patente de AspenTech del año 2000 que describe el controlador Apollo usando los modelos de la patente de 1998. Ese hallazgo subió a evidencia A las cadenas de Apollo, SABIC y Sinopec, y sumó la nueva patente como impacto. Y leer esa patente completa subió también la cadena del SS-BDN: describe la red de derivadas acotadas alimentada con los modelos en espacio de estados de la patente de 1998. Así funciona el método: dice qué buscar, y la evaluación se vuelve una tarea concreta.", "Por último, una hipótesis de valoración, con sus pesos declarados. Los pocos resultados de mayor valor, cinco de veintidós, concentran casi la mitad del total. Si cada peso se mueve hasta la mitad hacia arriba o hacia abajo, esa concentración queda entre treinta y nueve y sesenta y cuatro por ciento. Por eso se muestra como un rango, no como un índice: es una hipótesis a discutir, no una medida validada.", "Hasta acá medimos lo que derivó de la tesis. Pero un doctorado también forma a una persona, y la red evalúa además el impacto social. Por eso hay un segundo grafo con la misma raíz, el doctorado de 1997, unido por aristas de capacidad a lo que el doctor creó o dirigió después. Aparecen dieciocho resultados: laboratorios, un polo tecnológico, transferencias, un proyecto de empresa incubado y formación. Los tres premios tienen evidencia A, y si tocan una estrella, aparece el trofeo. Y hay un hallazgo incómodo: de quince vínculos con el doctor, solo dos tienen evidencia A. Son la diplomatura y el sistema de rayos X digital, porque una universidad y un diario publicaron que él los ideó o los dirigió. Para el resto, solo está el currículum del propio autor. Las instituciones publican lo que se creó, y muy pocas veces quién lo creó.", "El impacto social es lo más difícil de documentar, porque quienes lo reciben no publican. Por eso lo separamos en cuatro niveles: declarado, documentado, evaluado y medido. El laboratorio de fertilización de cabras en Chile está solo declarado. La diplomatura en testing de software, dictada dentro de una unidad penitenciaria para la reinserción de las personas privadas de libertad, está documentada por la universidad y por la propia cámara del software. El polo tecnológico de La Matanza llegó más lejos: un tercero lo estudió en su propia tesis doctoral. Un doctorado termina siendo objeto de estudio de otro. Pero ninguno está medido todavía, con tasas de graduación o de empleo. Y son dos preguntas distintas: si el resultado existe, y si lo hizo el doctor.", "¿Qué demuestra esta charla, y qué no? Demuestra que se pueden reconstruir, visualizar y describir con indicadores reproducibles trayectorias de impacto que un currículum lineal representa mal. Todavía no demuestra que esas trayectorias puedan convertirse en un índice válido y comparable. Para eso hay una agenda: evidencia, tipos de impacto, reglas de conexión, persistencia, pesos y validación.", "La propuesta para la red es construir esa metodología entre todos: recuperar, verificar y eventualmente ponderar lo que el currículum lineal pierde. Aplicarlo a muchos egresados, no solo a los casos exitosos. Acordar tipos de evidencia y reglas de conexión. Y validar antes de ponderar. Porque un caso no valida un método: lo vuelve discutible.", "Gracias por su participación.", "Todas las afirmaciones del caso tienen su fuente, y la lista completa está en esta diapositiva: patentes, artículos, comunicados de empresas y de universidades, bases de conocimiento y repositorios. Gracias por escuchar."];
+  var ULTIMA = 19;                      // «Gracias»: la lectura continua termina ahí; Fuentes (20) es anexo
+  var S = window.speechSynthesis;
+  if (!S || !window.SpeechSynthesisUtterance) return;
+  var ICON_PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>';
+  var ICON_STOP = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="1.5"/></svg>';
+  var btn = document.createElement('button');
+  btn.type = 'button'; btn.className = 'btn-voz';
+  function pintar(){ btn.innerHTML = activo ? ICON_STOP : ICON_PLAY; btn.classList.toggle('on', activo);
+    var t = activo ? 'Detener la lectura' : 'Escuchar la explicación (sigue sola de lámina en lámina)'; btn.title = t; btn.setAttribute('aria-label', t); }
+  var activo = false, token = 0, leyendo = -1, vigia = null;
+
+  function voz(){
+    var vs = S.getVoices() || [];
+    var es = vs.filter(function(v){ return /^es/i.test(v.lang); });
+    var masc = /(tom[aá]s|jorge|pablo|diego|ra[uú]l|alvaro|álvaro|carlos|enrique|andr[eé]s|male|hombre)/i;
+    return es.find(function(v){ return /tom[aá]s/i.test(v.name) && /AR/i.test(v.lang); })
+        || es.find(function(v){ return /AR/i.test(v.lang) && masc.test(v.name) && !/female/i.test(v.name); })
+        || es.find(function(v){ return /AR/i.test(v.lang); })
+        || es.find(function(v){ return masc.test(v.name) && !/female/i.test(v.name); })
+        || es[0] || null;
+  }
+  // tandas de hasta ~180 caracteres, cortadas en oraciones (Chrome corta las locuciones largas)
+  function tandas(t){
+    var ps = t.match(/[^.!?;:]+[.!?;:]+["»)]*\s*|[^.!?;:]+$/g) || [t], out = [];
+    ps.forEach(function(p){ p = p.trim(); if (!p) return;
+      while (p.length > 220){ var k = p.lastIndexOf(',', 200); if (k < 80) k = p.lastIndexOf(' ', 200); out.push(p.slice(0, k + 1)); p = p.slice(k + 1).trim(); }
+      var u = out.length - 1;
+      if (u >= 0 && out[u].length + p.length < 180) out[u] += ' ' + p; else out.push(p); });
+    return out;
+  }
+  function detenerVoz(){ token++; clearInterval(vigia); try { S.cancel(); } catch(e){} }
+  function leer(i){
+    detenerVoz(); var mio = token; leyendo = i;
+    var partes = tandas(NARR[i] || ''), v = voz(), n = 0;
+    function siguiente(){
+      if (mio !== token) return;
+      if (n >= partes.length){ alTerminar(i); return; }
+      var u = new SpeechSynthesisUtterance(partes[n++]);
+      if (v){ u.voice = v; u.lang = v.lang; } else u.lang = 'es-AR';
+      u.rate = 1; u.pitch = 1;
+      var hecho = false, arranco = false, t0 = Date.now(), quieto = 0;
+      function fin(){ if (hecho) return; hecho = true; clearInterval(vigia); setTimeout(siguiente, 120); }
+      u.onstart = function(){ arranco = true; };
+      u.onend = fin; u.onerror = function(e){ if (e && (e.error === 'interrupted' || e.error === 'canceled')) return; fin(); };
+      clearInterval(vigia);
+      vigia = setInterval(function(){            // por si el navegador pierde el aviso de fin
+        if (mio !== token || hecho) { clearInterval(vigia); return; }
+        if (S.speaking || S.pending){ quieto = 0; return; }
+        if (!quieto) quieto = Date.now();
+        if (Date.now() - quieto > 1200 && (arranco || Date.now() - t0 > 6000)) fin();
+      }, 300);
+      try { S.resume(); } catch(e){}
+      S.speak(u);
+    }
+    setTimeout(siguiente, 150);              // pausa tras cancel(): si no, algunos navegadores descartan la locución
+  }
+  function alTerminar(i){
+    if (!activo) return;
+    if (i < ULTIMA && i === cur){ leyendo = i + 1; goTo(i + 1); setTimeout(function(){ if (activo && cur === i + 1) leer(cur); }, 600); }
+    else { activo = false; pintar(); }
+  }
+  // si se cambia de lámina a mano mientras lee, pasa a leer la nueva
+  var goToOriginal = window.goTo;
+  window.goTo = function(k){ goToOriginal(k); if (activo && cur !== leyendo) leer(cur); };
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    activo = !activo; pintar();
+    if (activo) leer(cur); else detenerVoz();
+  });
+  window.addEventListener('pagehide', detenerVoz);
+  if (S.onvoiceschanged !== undefined) S.onvoiceschanged = function(){};
+  S.getVoices();
+  pintar();
+  var c = document.querySelector('.ctl'); if (c) c.insertBefore(btn, c.firstChild);
+})();
+</script>
 </body>
 </html>
