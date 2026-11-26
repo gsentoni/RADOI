@@ -1,0 +1,63 @@
+INDICADORES — Árbol de impacto de la tesis LNET (UNS, 1997)
+Raíz: root (1997)   ·   Fecha de corte: 2026-10-02
+
+1. ESTRUCTURA Y EVIDENCIA
+   32 nodos, 49 aristas
+   Nodos por tipo: despliegue 3, organizacion 3, patente 3, producto 3, publicacion 15, software 4, tesis 1
+   Aristas por tipo: comercializacion 8, contexto 6, derivacion_conceptual 10, despliegue 3, documentacion 8, ingenieria 10, precursor 4
+   Evidencia de nodos: A 31, B 1, C 0
+   Evidencia de aristas de derivación: A 28, B 14, C 1
+
+2. PERFIL
+   Rezago al primer resultado no académico: 1 año
+   Rezago a la primera adopción externa:     2 años
+   Persistencia (hasta el último nodo activo): 29 años
+      activo: Aspen Nonlinear Controller (2026)
+      activo: FOQUS — plataforma abierta del U.S. DOE (CCSI) (2026)
+   Alcance: 6 países (AR, BR, CN, DE, US, ZA), 10 organizaciones, ámbitos: academico, gobierno, industria
+   Profundidad: 5 eslabones hasta el impacto más lejano
+      root -[derivacion_conceptual]-> aiche98
+      aiche98 -[ingenieria]-> p1
+      p1 -[ingenieria]-> bdnpat
+      bdnpat -[comercializacion]-> apollo
+      apollo -[despliegue]-> sinopec
+   Transferencia: 0.64 (14 de 22 resultados fuera de la academia)
+   Resultados medidos:
+      2004: Adoptado por 28 plantas de polímeros en el mundo [A]
+      2007: Sinopec Shanghai: 70% menos variabilidad de proceso y 50% menos tiempo de transición de grado [A]
+
+3. EVIDENCIA DE LA CADENA HASTA CADA IMPACTO (eslabón más débil del camino mejor documentado)
+   [A] US 6,453,308 — Non-linear dynamic predictive device
+       root -> p1   · más débil: root->p1
+   [A] Aspen Target — primer controlador comercial
+       root -> aiche98 -> aspentarget   · más débil: root->aiche98, aiche98->aspentarget
+   [A] Central eléctrica — control de emisiones de NOx con Aspen Target
+       root -> aiche98 -> aspentarget -> nox99   · más débil: root->aiche98, aiche98->aspentarget, aspentarget->nox99
+   [A] US 7,330,804 — red de derivadas acotadas: aproximador no lineal restringido (Turner, Guiver, Lines, Treiber; AspenTech)
+       root -> p1 -> bdnpat   · más débil: root->p1, p1->bdnpat
+   [A] US 7,065,511 — Non-linear dynamic predictive device
+       root -> p2   · más débil: root->p2
+   [A] Aspen Apollo — controlador no lineal para polímeros
+       root -> p1 -> apollo   · más débil: root->p1, p1->apollo
+   [A] SABIC Polyolefine, Gelsenkirchen — planta de polietileno
+       root -> p1 -> apollo -> sabic   · más débil: root->p1, p1->apollo, apollo->sabic
+   [A] Sinopec — Qilu, Beijing Yanshan y Shanghai (SPC)
+       root -> p1 -> apollo -> sinopec   · más débil: root->p1, p1->apollo, apollo->sinopec
+   [A] SS-BDN: red de derivadas acotadas en espacio de estados (AspenTech), núcleo de Aspen Apollo
+       root -> p1 -> bdnpat -> ssbdn   · más débil: root->p1, p1->bdnpat, bdnpat->ssbdn
+   [A] D-RM Builder (NETL / U.S. DOE)
+       root -> aiche98 -> drm2016   · más débil: root->aiche98, aiche98->drm2016
+   [A] FOQUS — plataforma abierta del U.S. DOE (CCSI)
+       root -> aiche98 -> drm2016 -> foqus   · más débil: root->aiche98, aiche98->drm2016, drm2016->foqus
+   [B] Aspen Nonlinear Controller
+       root -> p1 -> apollo -> anc   · más débil: apollo->anc
+
+4. ESLABONES CRÍTICOS (documentarlos con evidencia A mejora más cadenas)
+   ssbdn -> anc (hoy B): mejora 1 cadena(s). Inferido: el JPC 2005 documenta el SS-BDN dentro de Aspen Apollo (Versteeg et al., Aspenworld 2002) y la base de conocimiento de AspenTech documenta la migración de los controladores Apollo; ningún documento revisado nombra el SS-BDN en el Aspen Nonlinear Controller.
+   apollo -> anc (hoy B): mejora 1 cadena(s). Continuidad técnica documentada (migración de controladores Apollo); el nombre sucesor es testimonio del autor.
+
+5. CONCENTRACIÓN EN LA COLA (hipótesis, con pesos declarados)
+   El 20% de nodos de mayor valor (5) concentra el 49% del valor.
+   Esos nodos: Sinopec — Qilu, Beijing Yanshan y Shanghai (SPC); Aspen Apollo — controlador no lineal para polímeros; Aspen Nonlinear Controller; Central eléctrica — control de emisiones de NOx con Aspen Target; SABIC Polyolefine, Gelsenkirchen — planta de polietileno
+   Sensibilidad (2000 corridas, pesos x0.5 a x1.5): entre 39% y 64% (mediana 51%).
+   Pesos: tesis 1, publicacion 1, formacion 2, patente 3, software 4, producto 5, despliegue 6, empresa 6, politica 6; activo x1.5; resultado medido +3

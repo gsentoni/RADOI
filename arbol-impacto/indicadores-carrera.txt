@@ -1,0 +1,15 @@
+Grafo de la carrera — indicadores (corte 2026-10-02)
+Resultados: 18  {'estudios de terceros': 1, 'formacion': 4, 'planes': 4, 'empresas': 2, 'transferencias': 4, 'estructuras': 3}
+Evidencia de nodos: {'A': 7, 'B': 8, 'C': 3} · de aristas: {'A': 6, 'B': 14, 'C': 3} · aristas 'capacidad': {'A': 2, 'B': 10, 'C': 3}
+Reconocimientos externos: 3
+  [A] Premio Sadosky 2012 a la Inclusión Digital (CESSI): 'la mejor experiencia de inclusión digital' (2012)
+  [A] Premio Sadosky 2015 a la Calidad e Innovación Educativa (CESSI) (2015)
+  [A] Premio LaTinaTec 2015 a la Innovación Educativa (FELTi 2015, La Habana) (2015)
+Impactos sociales marcados: 4  niveles: {'declarado': 1, 'documentado': 2, 'evaluado': 1, 'medido': 0}
+  [A · documentado] dipl: Formación en un oficio de la industria del software para personas privadas de libertad, para trabajar durante la detención y al recuperar la libertad: dictada en el CUSAM, dentro de la Unidad Penitenciaria Nº 48, una cárcel de máxima seguridad; 3 meses de capacitación para trabajar 20 horas por semana
+  [A · documentado] pimax: Equipo de diagnóstico cardiológico por imágenes de producción local, que sustituye importados a menor costo ('puede reemplazar equipos de 10.000 dólares')
+  [A · evaluado] cedit: Estudiantes del conurbano trabajan en empresas dentro del campus en lugar de viajar hasta 3 horas por día; un estudio de terceros (tesis doctoral, 2023) concluye que ayuda a reducir el desgranamiento, con datos de percepción
+  [C · declarado] caprinos: Mejora genética de cabras de productores de subsistencia en Tarapacá y capacitación de personal chileno
+Ámbitos: academico, gobierno, industria · Países: AO, AR, CL, DO · Organizaciones: 17
+Activos hoy: lucem, rrhh, cedit · Persistencia con evidencia A: 29 años (cedit)
+Cadena más larga: 4 eslabones, evidencia B: doc97 → zflp → polotic → cedit → tesis_tercero

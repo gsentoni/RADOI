@@ -1,0 +1,51 @@
+Árbol de impacto — instrumento v0
+=================================
+
+Qué hay en esta carpeta
+  esquema-arbol-impacto-v0.schema.json  El esquema: qué campos lleva cualquier árbol de impacto.
+  lnet-grafo-v0.json                    El árbol de la tesis LNET en ese esquema (32 nodos, 49 aristas, 45 fuentes).
+  indicadores.py                        Calcula los indicadores de cualquier árbol en el esquema. Sin dependencias.
+  indicadores-lnet.txt / .json          El resultado para LNET.
+  tablero-lnet.html                     El tablero visual de LNET (abrir con cualquier navegador, funciona sin internet).
+  construir_lnet.py                     Cómo se armó lnet-grafo-v0.json (auditable, regenerable).
+  caso-prueba.json                      Caso mínimo (tesis sin transferencia) para probar el script.
+
+  Segundo grafo: el impacto del doctor (dimensión institucional y social)
+  carrera-grafo-v0.json                 Mismo esquema, raíz = el Doctorado 1997 (19 nodos, 23 aristas, 33 fuentes).
+  indicadores_carrera.py                Conteos y cadenas del grafo de la carrera (sin pesos).
+  indicadores-carrera.txt / .json       El resultado.
+  construir_carrera.py                  Cómo se armó carrera-grafo-v0.json.
+
+Cómo se usa
+  python3 indicadores.py lnet-grafo-v0.json          informe legible
+  python3 indicadores.py lnet-grafo-v0.json --json   resultados en JSON
+  python3 indicadores_carrera.py carrera-grafo-v0.json   grafo de la carrera
+  python3 indicadores.py lnet-grafo-v0.json --html tablero-lnet.html
+                                                     tablero visual: perfil, trayectoria en el tiempo,
+                                                     evidencia de cada cadena y concentración en la cola
+  Para otro egresado: copiar lnet-grafo-v0.json, reemplazar caso, fuentes, nodos y aristas, y correr el script.
+
+Grados de evidencia (en nodos y aristas)
+  A  un documento público afirma explícitamente el hecho o la derivación
+  B  se infiere de documentos públicos (mismos autores, misma técnica, mismo producto)
+  C  solo testimonio del autor
+
+Tipos de arista
+  precursor · derivacion_conceptual · ingenieria · comercializacion · despliegue · documentacion · formacion · contexto
+  (las de contexto no cuentan como derivación: dicen dónde o con quién ocurrió algo)
+  capacidad (grafo de la carrera): el doctor creó o dirigió el destino; la letra califica esa
+  autoría o dirección, no una causalidad. En el CVar es B (autodeclarado); un acta de consejo de una universidad pública es A.
+  Impacto social, por niveles: declarado (lo dice el autor) · documentado (una institución lo describe)
+  · evaluado (un tercero lo estudió con datos) · medido (indicador de resultado con línea de base).
+
+Indicadores
+  Perfil: rezago, persistencia, alcance, profundidad, proporción de transferencia, resultados medidos.
+  Evidencia de la cadena: para cada impacto, el camino desde la tesis mejor documentado y su eslabón más débil.
+  Eslabones críticos: qué vínculo conviene documentar primero porque mejora más cadenas.
+  Concentración en la cola: HIPÓTESIS. Usa pesos declarados al principio de indicadores.py y reporta
+  cuánto cambia el resultado si los pesos se mueven ±50% (análisis de sensibilidad).
+
+Pendiente para la versión 1
+  Verificación del caso por un tercero; horas de construcción medidas; registros institucionales que nombren
+  a quien creó o dirigió cada estructura (para que las aristas de capacidad puedan llegar a A);
+  piloto con una cohorte de egresados, incluidos los que no transfirieron.

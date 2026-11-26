@@ -1,0 +1,129 @@
+{
+ "resultados": 18,
+ "por_grupo": {
+  "formacion": 4,
+  "empresas": 2,
+  "estructuras": 3,
+  "planes": 4,
+  "transferencias": 4,
+  "estudios de terceros": 1
+ },
+ "evidencia_nodos": {
+  "A": 7,
+  "B": 8,
+  "C": 3
+ },
+ "evidencia_aristas": {
+  "A": 6,
+  "B": 14,
+  "C": 3
+ },
+ "capacidad": {
+  "A": 2,
+  "B": 10,
+  "C": 3
+ },
+ "reconocimientos": [
+  {
+   "nodo": "dipl",
+   "descripcion": "Premio Sadosky 2012 a la Inclusión Digital (CESSI): 'la mejor experiencia de inclusión digital'",
+   "anio": 2012,
+   "evidencia": "A"
+  },
+  {
+   "nodo": "cedit",
+   "descripcion": "Premio Sadosky 2015 a la Calidad e Innovación Educativa (CESSI)",
+   "anio": 2015,
+   "evidencia": "A"
+  },
+  {
+   "nodo": "cedit",
+   "descripcion": "Premio LaTinaTec 2015 a la Innovación Educativa (FELTi 2015, La Habana)",
+   "anio": 2015,
+   "evidencia": "A"
+  }
+ ],
+ "impacto_social": [
+  {
+   "nodo": "dipl",
+   "descripcion": "Formación en un oficio de la industria del software para personas privadas de libertad, para trabajar durante la detención y al recuperar la libertad: dictada en el CUSAM, dentro de la Unidad Penitenciaria Nº 48, una cárcel de máxima seguridad; 3 meses de capacitación para trabajar 20 horas por semana",
+   "evidencia": "A",
+   "nivel": "documentado"
+  },
+  {
+   "nodo": "caprinos",
+   "descripcion": "Mejora genética de cabras de productores de subsistencia en Tarapacá y capacitación de personal chileno",
+   "evidencia": "C",
+   "nivel": "declarado"
+  },
+  {
+   "nodo": "pimax",
+   "descripcion": "Equipo de diagnóstico cardiológico por imágenes de producción local, que sustituye importados a menor costo ('puede reemplazar equipos de 10.000 dólares')",
+   "evidencia": "A",
+   "nivel": "documentado"
+  },
+  {
+   "nodo": "cedit",
+   "descripcion": "Estudiantes del conurbano trabajan en empresas dentro del campus en lugar de viajar hasta 3 horas por día; un estudio de terceros (tesis doctoral, 2023) concluye que ayuda a reducir el desgranamiento, con datos de percepción",
+   "evidencia": "A",
+   "nivel": "evaluado"
+  }
+ ],
+ "niveles_social": {
+  "declarado": 1,
+  "documentado": 2,
+  "evaluado": 1,
+  "medido": 0
+ },
+ "ambitos": [
+  "academico",
+  "gobierno",
+  "industria"
+ ],
+ "paises": [
+  "AO",
+  "AR",
+  "CL",
+  "DO"
+ ],
+ "activos": [
+  "lucem",
+  "rrhh",
+  "cedit"
+ ],
+ "persistencia_A": 29,
+ "persistencia_A_nodo": [
+  "cedit"
+ ],
+ "cadena_mas_larga": {
+  "largo": 4,
+  "evidencia": "B",
+  "camino": [
+   "doc97",
+   "zflp",
+   "polotic",
+   "cedit",
+   "tesis_tercero"
+  ]
+ },
+ "organizaciones": [
+  "Banco Mundial",
+  "CESSI",
+  "CONAE",
+  "CONICET",
+  "Empresas de la Zona Franca Ensenada-La Plata",
+  "GyL S.A.",
+  "IMER",
+  "INDOTEL",
+  "INTI",
+  "Liveware",
+  "Lucem Radix",
+  "Rayos Pimax S.A.",
+  "UADE",
+  "UNLaM",
+  "UNSAM",
+  "UNTREF",
+  "Universidad de Los Lagos"
+ ],
+ "fecha_corte": "2026-10-02"
+}

@@ -1,0 +1,360 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "arbol-impacto/v0",
+ "title": "Árbol de impacto de un doctorado — esquema v0",
+ "description": "Representa la trayectoria de impacto de una tesis doctoral como un grafo dirigido: nodos (resultados y organizaciones) con tipo y fecha, y aristas (derivaciones) con tipo, grado de evidencia y fuentes. Grados de evidencia: A = un documento público afirma explícitamente el hecho o la derivación; B = se infiere de documentos públicos (mismos autores, misma técnica nombrada, mismo producto) sin afirmación explícita; C = solo testimonio del autor. El mismo esquema sirve para el grafo de la carrera: raíz = el doctorado, aristas 'capacidad' hacia lo que el doctor creó o dirigió.",
+ "type": "object",
+ "required": [
+  "esquema",
+  "version",
+  "caso",
+  "fuentes",
+  "nodos",
+  "aristas"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "esquema": {
+   "const": "arbol-impacto"
+  },
+  "version": {
+   "type": "string"
+  },
+  "caso": {
+   "type": "object",
+   "required": [
+    "id",
+    "titulo",
+    "autor",
+    "raiz",
+    "fecha_corte"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "titulo": {
+     "type": "string"
+    },
+    "autor": {
+     "type": "string"
+    },
+    "orcid": {
+     "type": "string"
+    },
+    "raiz": {
+     "type": "string",
+     "description": "id del nodo tesis desde el que se mide todo"
+    },
+    "fecha_corte": {
+     "type": "string",
+     "format": "date",
+     "description": "fecha en que se verificó el estado de los nodos"
+    },
+    "construccion": {
+     "type": "object",
+     "description": "Cómo se construyó el caso (para medir costo y confiabilidad).",
+     "additionalProperties": false,
+     "properties": {
+      "construido_por": {
+       "type": "string"
+      },
+      "verificado_por": {
+       "type": "string"
+      },
+      "horas_estimadas": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "notas": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "fuentes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "tipo",
+     "cita"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "tipo": {
+      "enum": [
+       "tesis",
+       "articulo",
+       "capitulo",
+       "patente",
+       "comunicado",
+       "prensa_sectorial",
+       "base_conocimiento",
+       "pagina_producto",
+       "repositorio",
+       "acta",
+       "registro_cv",
+       "informe_tecnico",
+       "correspondencia",
+       "manuscrito",
+       "presentacion",
+       "comprobante",
+       "calendario",
+       "testimonio"
+      ]
+     },
+     "cita": {
+      "type": "string"
+     },
+     "url": {
+      "type": "string"
+     },
+     "fecha": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "nodos": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "tipo",
+     "titulo",
+     "anio",
+     "ambito",
+     "estado",
+     "evidencia"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "tipo": {
+      "enum": [
+       "tesis",
+       "publicacion",
+       "patente",
+       "software",
+       "producto",
+       "despliegue",
+       "empresa",
+       "politica",
+       "formacion",
+       "organizacion",
+       "laboratorio",
+       "centro",
+       "transferencia"
+      ],
+      "description": "organizacion = nodo de contexto (dónde ocurrió algo); no cuenta como resultado. laboratorio / centro = estructura institucional creada; transferencia = proyecto con un destinatario externo (grafo de la carrera)."
+     },
+     "titulo": {
+      "type": "string"
+     },
+     "etiqueta": {
+      "type": "string",
+      "maxLength": 16,
+      "description": "rótulo corto para dibujar el grafo (opcional)"
+     },
+     "anio": {
+      "type": "integer",
+      "description": "primer año con evidencia del nodo"
+     },
+     "anio_nota": {
+      "type": "string"
+     },
+     "ambito": {
+      "enum": [
+       "academico",
+       "industria",
+       "gobierno"
+      ]
+     },
+     "estado": {
+      "enum": [
+       "activo",
+       "inactivo",
+       "desconocido"
+      ]
+     },
+     "activo_en": {
+      "type": "integer",
+      "description": "último año en que se observó activo"
+     },
+     "actores": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "organizaciones": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "paises": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "pattern": "^[A-Z]{2}$"
+      }
+     },
+     "resultados": {
+      "type": "array",
+      "description": "resultados medidos atribuidos al nodo",
+      "items": {
+       "type": "object",
+       "required": [
+        "descripcion",
+        "anio",
+        "evidencia",
+        "fuentes"
+       ],
+       "additionalProperties": false,
+       "properties": {
+        "descripcion": {
+         "type": "string"
+        },
+        "anio": {
+         "type": "integer"
+        },
+        "evidencia": {
+         "enum": [
+          "A",
+          "B",
+          "C"
+         ]
+        },
+        "fuentes": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        }
+       }
+      }
+     },
+     "evidencia": {
+      "enum": [
+       "A",
+       "B",
+       "C"
+      ],
+      "description": "evidencia de que el nodo existe con esos datos"
+     },
+     "fuentes": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "nota": {
+      "type": "string"
+     },
+     "impacto_social": {
+      "type": "object",
+      "description": "Qué cambia, y para quién, fuera de la academia y la industria (grafo de la carrera).",
+      "required": [
+       "descripcion",
+       "evidencia",
+       "nivel"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "descripcion": {
+        "type": "string"
+       },
+       "evidencia": {
+        "enum": [
+         "A",
+         "B",
+         "C"
+        ]
+       },
+       "fuentes": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "nivel": {
+        "enum": [
+         "declarado",
+         "documentado",
+         "evaluado",
+         "medido"
+        ],
+        "description": "declarado = lo afirma el autor; documentado = una institución describe la actividad y a quién llega; evaluado = un tercero lo estudió con datos (p. ej., encuestas); medido = un indicador de resultado con línea de base (graduación, empleo, ingresos)."
+       }
+      }
+     }
+    }
+   }
+  },
+  "aristas": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "desde",
+     "hacia",
+     "tipo",
+     "evidencia"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "desde": {
+      "type": "string"
+     },
+     "hacia": {
+      "type": "string"
+     },
+     "tipo": {
+      "enum": [
+       "precursor",
+       "derivacion_conceptual",
+       "ingenieria",
+       "comercializacion",
+       "despliegue",
+       "documentacion",
+       "formacion",
+       "contexto",
+       "capacidad"
+      ],
+      "description": "precursor = trabajo previo que alimenta al destino; derivacion_conceptual = el destino extiende la idea; ingenieria = el destino la implementa o protege (software, patente); comercializacion = la lleva al mercado; despliegue = adopción por un usuario externo; documentacion = un tercero la usa o la documenta (cita, benchmark); formacion = tesis dirigidas; contexto = dónde o con quién ocurrió. capacidad = el doctor (raíz 'Doctorado') creó o dirigió el destino; la evidencia califica esa autoría o dirección, no una causalidad."
+     },
+     "evidencia": {
+      "enum": [
+       "A",
+       "B",
+       "C"
+      ],
+      "description": "evidencia de que la derivación existe"
+     },
+     "fuentes": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "nota": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1548 @@
+{
+  "esquema": "arbol-impacto",
+  "version": "0.1",
+  "caso": {
+    "id": "lnet-1997",
+    "titulo": "Árbol de impacto de la tesis LNET (UNS, 1997)",
+    "autor": "Guillermo Blas Sentoni",
+    "orcid": "0009-0006-9088-3717",
+    "raiz": "root",
+    "fecha_corte": "2026-10-02",
+    "construccion": {
+      "construido_por": "G. B. Sentoni (árbol original) y Claude (paso al esquema v0)",
+      "verificado_por": "Pendiente: verificación por un tercero",
+      "horas_estimadas": null,
+      "notas": "Congelado el 02/10/2026 para la charla RADoI del 16/10/2026. Derivado del árbol interactivo lnet-arbol-corregido.html y de las fuentes verificadas para la charla RADoI. Donde el dibujo y la evidencia difieren, manda la evidencia (ver notas de nodos y aristas)."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "F-tesis",
+      "tipo": "tesis",
+      "cita": "Sentoni, G. B. LNET: una estructura de aproximación para sistemas no lineales discretos. Tesis de doctorado en Control de Sistemas, Universidad Nacional del Sur, 1997. Dir.: O. Agamennoni. Teorema de Aproximación de la Estructura LNet para sistemas con memoria evanescente (sec. 3.3, p. 70; prueba en 3.3.5, p. 75); extensión MISO propuesta (fig. 5.17, p. 125); propiedades de los sistemas de Laguerre (apéndice A, p. 147); ajuste robusto con datos ruidosos (conclusiones, p. 136, ref. [59])."
+    },
+    {
+      "id": "F-cvar",
+      "tipo": "registro_cv",
+      "cita": "CVar de G. B. Sentoni, versión impresa, 13/03/2024.",
+      "fecha": "2024-03-13"
+    },
+    {
+      "id": "F-pre95",
+      "tipo": "articulo",
+      "cita": "Sentoni, Agamennoni, Romagnoli. On the Evaluation of a Certain Kind of Approximation Structure. Latin American Applied Research 25S, 1995."
+    },
+    {
+      "id": "F-pre96",
+      "tipo": "articulo",
+      "cita": "Sentoni, Agamennoni, Desages, Romagnoli. Approximate Models for Nonlinear Process Control. AIChE Journal 42(8):2240, 1996."
+    },
+    {
+      "id": "F-eth96",
+      "tipo": "articulo",
+      "cita": "Sánchez, Sentoni, Schbib, Tonelli, Romagnoli. Gross Measurements Error Detection/Identification for an Industrial Ethylene Reactor. Computers & Chemical Engineering, 1996.",
+      "url": "https://doi.org/10.1016/0098-1354(96)00265-7"
+    },
+    {
+      "id": "F-ifac99",
+      "tipo": "articulo",
+      "cita": "Zhao, Guiver, Neelakantan, Biegler. A Nonlinear Industrial Model Predictive Controller Using Integrated PLS and Neural Net State Space Model. 14th IFAC World Congress, Beijing, 1999 (IFAC Proceedings Volumes 32(2)). Presenta Aspen Target, que usa el modelo de Zhao, Guiver y Sentoni (ACC 1998), con una aplicación industrial en control de NOx de una central eléctrica.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S147466701757130X",
+      "fecha": "1999"
+    },
+    {
+      "id": "F-ifac99b",
+      "tipo": "articulo",
+      "cita": "Zhao, Guiver, Sentoni, Lal (Aspen Technology). An Identification Approach for Industrial Nonlinear Model Predictive Control. 14th IFAC World Congress, Beijing, julio de 1999, sesión invitada 'Empirical modeling for nonlinear control' (7a-07-6). Afirma que la estructura del modelo aproxima cualquier proceso no lineal con memoria evanescente (Sentoni et al., 1996, 1998) y construye la dinámica con 'a Laguerre system (Sentoni, G. et al., 1996, 1998)'; ejemplo: reactor de polietileno con transiciones de grado e índice de fluidez. Copia del autor; publicado y presentado según el autor.",
+      "fecha": "1999"
+    },
+    {
+      "id": "F-us7330804",
+      "tipo": "patente",
+      "cita": "US 7,330,804 B2, Computer method and apparatus for constraining a non-linear approximator of an empirical process. Turner, Guiver, Lines, Treiber; Aspen Technology. Prioridad 29/06/2000; presentada 27/06/2001 (publicada como US 2002/0072828); otorgada 12/02/2008. Restringe un aproximador no lineal (p. ej., a ser monótono) para modelar procesos de polímeros; sus entradas son estados de modelos en espacio de estados como los de 'U.S. Pat. No. 6,453,308 to Zhao et al.'; 'In a preferred embodiment, the controller is Aspen Apollo'. Describe 'the non-linear network integral architecture (or bounded derivative network)' y su uso con entradas que son 'state vectors from for example a state space model', con modelos en espacio de estados de AspenTech 'described in [...] U.S. Pat. No. 6,453,308 to Zhao et al.'. Entre las referencias citadas por el examinador figura Sentoni, G. B. et al., 'Model Reduction for Nonlinear DABNet Models', ACC 1999.",
+      "url": "https://patents.google.com/patent/US7330804B2/en",
+      "fecha": "2000-06-29"
+    },
+    {
+      "id": "F-acc1999",
+      "tipo": "articulo",
+      "cita": "Sentoni, Biegler, Guiver. Model Reduction for Nonlinear DABNet Models. Proceedings of the American Control Conference, San Diego, 1999, vol. 3, pp. 2052-2056 (IEEE). Citado como referencia de DABNet en Mukherjee y Bhattacharyya (IECR 2023) [39].",
+      "fecha": "1999"
+    },
+    {
+      "id": "F-cmu-dir2000",
+      "tipo": "registro_cv",
+      "cita": "Carnegie Mellon University, Faculty/Staff Directory 2000 (edición del centenario, 1900-2000), p. 208: 'SENTONI, GUILLERMO - Visiting Researcher - Chemical Engineering - DH 3112 - sentoni@andrew.cmu.edu'. Ejemplar impreso del autor, con etiqueta de envío interno a su nombre (Chemical Eng, DH).",
+      "fecha": "2000"
+    },
+    {
+      "id": "F-acc2003",
+      "tipo": "articulo",
+      "cita": "Turner, P., Guiver, J. y Lines, B. (AspenTech). Introducing the State Space Bounded Derivative Network for Commercial Transition Control. American Control Conference, Denver, 2003 (sesión Transition Control, FP18-2). 'The Model Based Predictive Controller that utilizes the SSBDN technology is called Aspen Apollo'; 'Aspen Apollo utilizes the SSBDN technology within the kernel of the controller'; 22 aplicaciones de control no lineal en producción de polímeros; transición de índice de fluidez en SABIC Polyolefine (Alemania)."
+    },
+    {
+      "id": "F-turner-bdn",
+      "tipo": "articulo",
+      "cita": "Turner, P. y Guiver, J. (AspenTech UK). The State Space Bounded Derivative Network superceding the application of neural networks in control. Ponencia de 2003–2004 (sede no identificada en la copia; copia en papel del archivo del autor). 'The Bounded Derivative Network can be easily extended to a state space dynamic model form by presenting state vectors at the input to the model [...] This patent pending technology forms the kernel of the Aspen Apollo controller'; más de 30 aplicaciones en polímeros; Apollo en SABIC Gelsenkirchen.",
+      "fecha": "2003"
+    },
+    {
+      "id": "F-jpc2005",
+      "tipo": "articulo",
+      "cita": "Turner, P. y Guiver, J. (AspenTech). Introducing the bounded derivative network—superceding the application of neural networks in control. Journal of Process Control 15 (2005) 407–415, doi:10.1016/j.jprocont.2004.08.001 (recibido 07/01/2003). Sección 5: el SS-BDN como arquitectura de Wiener, con estados x_t = A x_{t-1} + B u_t como entradas de la BDN. Sección 10: 'Versteeg et al. [12] describe the application of the state-space Bounded Derivative Network to a commercial polyethylene process within a total nonlinear control solution'; [12] = 'Aspen Apollo—Nonlinear Controller Pilot Project', Aspenworld 2002. 'The Bounded Derivative Network has now been widely applied worldwide (for several years) in many commercial nonlinear polymer production control applications [12,13]'. Cita a Zhao et al. (Control Engineering Practice, 2001) [16]; no cita a Sentoni ni nombra el Aspen Nonlinear Controller.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959152404000915",
+      "fecha": "2005"
+    },
+    {
+      "id": "F-aiche98",
+      "tipo": "articulo",
+      "cita": "Sentoni, Guiver, Zhao, Biegler. State Space Nonlinear Process Modeling: Identification and Universality. AIChE Journal 44(10):2229, 1998."
+    },
+    {
+      "id": "F-laar2000",
+      "tipo": "articulo",
+      "cita": "Sentoni, Biegler. Efficient Formulation and Solution of Nonlinear Model Predictive Control Problem. Latin American Applied Research 30(4):315-334, 2000."
+    },
+    {
+      "id": "F-icecs96",
+      "tipo": "articulo",
+      "cita": "Cousseau, Sentoni, Diniz, Agamennoni. On Orthogonal Parallel Realization for IIR Adaptive Filters. Proceedings of ICECS'96, Rodas, Grecia, 1996. Citado en la tesis como [14] (p. 135).",
+      "fecha": "1996"
+    },
+    {
+      "id": "F-liptak2006",
+      "tipo": "capitulo",
+      "cita": "Jensen, Abonyi. Neural Networks for Process Modeling (sec. 2.18). En B. G. Lipták (ed.), Instrument Engineers' Handbook, vol. II: Process Control and Optimization, 4.ª ed., CRC Press, 2006, p. 253 y ss.: 'NeuCOP II from NeuralWare (an AspenTech subsidiary in Pittsburgh, Pennsylvania)' crea modelos dinámicos no lineales y los incorpora a un control predictivo con optimizador; sus resultados pueden alimentar 'a realtime control system, such as DMCPlus'.",
+      "fecha": "2006"
+    },
+    {
+      "id": "F-us5477444",
+      "tipo": "patente",
+      "cita": "US 5,477,444, Control system using an adaptive neural network for target and path optimization for a multivariable, nonlinear process (base de NeuCOP). Bhat, Braden, Heckendoorn, Graettinger, Federowicz, DuBose. Prioridad 14/09/1992; otorgada 19/12/1995; asignada a Texaco y NeuralWare (1997) y luego a Aspen Technology. La patente US 7,330,804 (Apollo) la cita.",
+      "url": "https://patents.google.com/patent/US5477444"
+    },
+    {
+      "id": "F-ijcta2000",
+      "tipo": "articulo",
+      "cita": "Cousseau, Diniz, Sentoni, Agamennoni. On Orthonormal Realizations for Adaptive IIR Filters. Int. J. Circuit Theory and Applications 28(5):481-500, 2000."
+    },
+    {
+      "id": "F-icassp2001",
+      "tipo": "articulo",
+      "cita": "Nonlinear Echo Cancellation Using Decoupled A-B Net Structure. IEEE ICASSP 2001.",
+      "url": "https://doi.org/10.1109/ICASSP.2001.941065"
+    },
+    {
+      "id": "F-book2006",
+      "tipo": "capitulo",
+      "cita": "Mandolesi, Sentoni, Agamennoni, Desages. Inner-Outer Point Evaluation in a Deterministic Generalization Domain. Progress in Neural Networks 7, Intellect, 2006. ISBN 1-84150-053-4."
+    },
+    {
+      "id": "F-us6453308",
+      "tipo": "patente",
+      "cita": "US 6,453,308 B1, Non-linear dynamic predictive device. Zhao, Sentoni, Guiver; Aspen Technology. Prioridad 01/10/1997; presentada 24/09/1998; otorgada 17/09/2002; vencida.",
+      "url": "https://patents.google.com/patent/US6453308B1/en"
+    },
+    {
+      "id": "F-us7065511",
+      "tipo": "patente",
+      "cita": "US 7,065,511 B2, Non-linear dynamic predictive device. Zhao, Sentoni, Guiver; Aspen Technology. Presentada 24/10/2001; otorgada 20/06/2006; vencida.",
+      "url": "https://patents.google.com/patent/US7065511B2/en"
+    },
+    {
+      "id": "F-pr2002",
+      "tipo": "prensa_sectorial",
+      "cita": "Innovative AspenTech Solution Delivers New Levels of Manufacturing Performance to Polymers Industry (lanzamiento de Aspen Apollo, 'patented technology', ya implementado en SABIC Polyolefine, Gelsenkirchen).",
+      "url": "https://www.chemeurope.com/en/news/15348/",
+      "fecha": "2002-10-23"
+    },
+    {
+      "id": "F-pr2003",
+      "tipo": "prensa_sectorial",
+      "cita": "Sinopec Begins Implementation of AspenTech's Polymer Process Control Solution at Polypropylene Plant (Beijing Yanshan; segunda planta de Sinopec tras Qilu).",
+      "url": "https://www.chemeurope.com/en/news/32305/",
+      "fecha": "2003-12-03"
+    },
+    {
+      "id": "F-adi2004",
+      "tipo": "prensa_sectorial",
+      "cita": "ADI Chemical Market Resources Newsletter: tercera planta de Sinopec (SPC, Jinshan) con la solución 'based on the Aspen Apollo product', 'adopted by 28 polymer plants worldwide'.",
+      "url": "https://adi-analytics.com/2004/05/17/adi-chemical-market-resources-newsletter-may-17-2004/",
+      "fecha": "2004-05-17"
+    },
+    {
+      "id": "F-pr2007",
+      "tipo": "comunicado",
+      "cita": "AspenTech: Sinopec Shanghai Petrochemical Company Achieves 'Phenomenal' Results (70% menos variabilidad de proceso, 50% menos tiempo de transición de grado; polipropileno multi-reactor).",
+      "url": "https://www.aspentech.com/en/resources/press-releases/sinopec-shanghai-petrochemical-company-achieves-phenomenal-results-with-aspentechs-as2147487724",
+      "fecha": "2007-06-04"
+    },
+    {
+      "id": "F-naidoo2007",
+      "tipo": "capitulo",
+      "cita": "Naidoo, Guiver, Turner, Keenan. Experiences with Nonlinear MPC in Polymer Manufacturing. LNCIS 358, Springer, 2007.",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-540-72699-9_31"
+    },
+    {
+      "id": "F-ma2016",
+      "tipo": "articulo",
+      "cita": "Ma, Mahapatra, Zitney, Biegler, Miller. D-RM Builder: A software tool for generating fast and accurate nonlinear dynamic reduced models from high-fidelity models. Computers & Chemical Engineering 94:60-74, 2016. (DABNet es el tipo principal de D-RM; D-RM Builder es un módulo de FOQUS.)",
+      "url": "https://doi.org/10.1016/j.compchemeng.2016.07.021"
+    },
+    {
+      "id": "F-acc2018",
+      "tipo": "articulo",
+      "cita": "Mahapatra, P., Ma, J. y Zitney, S. E. (NETL, U.S. DOE). Nonlinear Model Predictive Control using Decoupled A-B Net Formulation for Carbon Capture Systems - Comparison with Algorithmic Differentiation Approach. American Control Conference 2018. Dice que DABNet fue 'first proposed in [1]' y que 'Zhao et al. [6] had used the original DABNet-based black-box model as proposed in [1], in an industrial NMPC framework which uses an integrated partial least-squares and neural net model', con [1] = Sentoni, Biegler, Guiver y Zhao, AIChE J. 44(10), 1998, y [6] = Zhao, Guiver, Neelakantan y Biegler, Control Engineering Practice 9(2), 2001. Versión en OSTI: https://www.osti.gov/servlets/purl/1543333",
+      "url": "https://doi.org/10.23919/ACC.2018.8431493"
+    },
+    {
+      "id": "F-iecr2023",
+      "tipo": "articulo",
+      "cita": "Mukherjee, Bhattacharyya. Hybrid Series/Parallel All-Nonlinear Dynamic-Static Neural Networks: Development, Training, and Application to Chemical Processes. Ind. Eng. Chem. Res. 62(7), 2023. Describe DABNet (perceptrón estático de una capa oculta y dinámica dada por 'a set of discrete Laguerre systems'), citando a Ma et al. 2016 [38] y a Sentoni, Biegler, Guiver, ACC 1999 [39]; lo usa como referencia de comparación junto con LSTM y GRU y lo llama 'the current state-of-the-art DABNet'.",
+      "url": "https://doi.org/10.1021/acs.iecr.2c03339"
+    },
+    {
+      "id": "F-kb2022",
+      "tipo": "base_conocimiento",
+      "cita": "AspenTech Knowledge Base 000099413: How to Import Apollo projects on DMC3 Builder ('how to import a Non-linear Apollo Controller into DMC3 Builder').",
+      "url": "https://esupport.aspentech.com/S_Article?id=000099413",
+      "fecha": "2022-01-05"
+    },
+    {
+      "id": "F-anc",
+      "tipo": "pagina_producto",
+      "cita": "AspenTech: Aspen Nonlinear Controller, página de producto vigente.",
+      "url": "https://www.aspentech.com/en/products/msc/aspen-nonlinear-controller",
+      "fecha": "2026-09-25"
+    },
+    {
+      "id": "F-foqus",
+      "tipo": "repositorio",
+      "cita": "CCSI-Toolset/FOQUS (U.S. DOE). Último cambio verificado: 24/02/2026; la documentación cita D-RM Builder.",
+      "url": "https://github.com/CCSI-Toolset/FOQUS",
+      "fecha": "2026-02-24"
+    },
+    {
+      "id": "F-qin2002",
+      "tipo": "presentacion",
+      "cita": "Badgwell, Qin. Industrial Model Predictive Control — An Updated Overview, 09/03/2002. Relevamiento de los cinco productos comerciales de control predictivo no lineal; de Aspen Target dice: 'identifies a core linear state-space model with an additive nonlinear neural net' y 'Linear dynamics is built by a series of first order filters or Laguerre models'. No menciona Apollo.",
+      "url": "https://skoge.folk.ntnu.no/presentation/OLD-2017-and-earlier/mpc_badgwell/mpc_survey_handout.pdf",
+      "fecha": "2002-03-09"
+    },
+    {
+      "id": "F-qin2003",
+      "tipo": "articulo",
+      "cita": "Qin, Badgwell. A survey of industrial model predictive control technology. Control Engineering Practice 11(7):733-764, 2003. De Aspen Target: modelo lineal en espacio de estados con un término no lineal sumado en la salida; 'a series of first order filters or a Laguerre model is constructed'; 'It is claimed that this type of nonlinear model can approximate any discrete time nonlinear processes with fading memory (Sentoni, Biegler, Guiver, & Zhao, 1998)'.",
+      "url": "https://cepac.cheme.cmu.edu/pasilectures/darciodolak/Review_article_2.pdf",
+      "fecha": "2003"
+    },
+    {
+      "id": "F-mon2000-carta",
+      "tipo": "correspondencia",
+      "cita": "Carta de G. B. Sentoni a J. Guiver (AspenTech): resultados de una red neuronal con monotonía para el índice de fluidez (R_MI) de un proceso de polímeros, con los signos de ganancia pedidos por Guiver para 11 entradas. Archivo del autor; PDF original creado el 27/01/2000 (metadatos del archivo).",
+      "fecha": "2000-01-27"
+    },
+    {
+      "id": "F-mon2000-informe",
+      "tipo": "informe_tecnico",
+      "cita": "Sentoni, Biegler. Final Report: Identification with Neural Nets with Monotonicity. Carnegie Mellon University, Dpt. of Chemical Engineering. Marcado CONFIDENTIAL; resultados 'obtained by using Aspen provided data' (polímeros). Método: monotonía por restricción de signo de los pesos; software TnCons (fmincon) y TnConsIpOpt (IpOpt, CMU). Archivo del autor; PDF original creado el 29/01/2000 (metadatos del archivo).",
+      "fecha": "2000-01-29"
+    },
+    {
+      "id": "F-cac2002-manuscrito",
+      "tipo": "manuscrito",
+      "cita": "Sentoni (UADE), Biegler (CMU). Monotonicity on Identification with Neural Nets. Manuscrito para CAC-2002, candidato a Analytica Chimica Acta; motivación: modelos para control predictivo con la ganancia estática correcta. Archivo del autor; guardado el 02/08/2002 (metadatos del archivo).",
+      "fecha": "2002-08-02"
+    },
+    {
+      "id": "F-cac2002-charla",
+      "tipo": "presentacion",
+      "cita": "Sentoni. Monotonicity on Identification with Neural Nets. Diapositivas presentadas en CAC-2002, Eighth Conference on Chemometrics in Analytical Chemistry, Seattle, 22-26/09/2002 (UADE). Aplicación a un reactor de polimerización con los mismos 11 signos de ganancia del informe de 2000. Archivo del autor.",
+      "fecha": "2002-09-22"
+    },
+    {
+      "id": "F-cac2002-aceptacion",
+      "tipo": "correspondencia",
+      "cita": "Mail de Barry M. Wise (Eigenvector, organizador de CAC-2002) a G. Sentoni, 06/06/2002: el resumen 'Monotonicity on Identification with Neural Nets', de Guillermo B. Sentoni y Lorenz T. Biegler, fue aceptado para la sesión de pósters. Archivo del autor (correo de la época).",
+      "fecha": "2002-06-06"
+    },
+    {
+      "id": "F-cac2002-inscripcion",
+      "tipo": "comprobante",
+      "cita": "Autorización de pago de la inscripción de G. Sentoni en CAC-2002 (US$ 345) a Eigenvector Research, Inc. (Manson, WA), con tarjeta corporativa de G. Guido-Lavalle válida desde 01/2002. Archivo del autor (número de tarjeta omitido)."
+    },
+    {
+      "id": "F-rsc2002",
+      "tipo": "calendario",
+      "cita": "Diary of conferences and courses. Journal of Analytical Atomic Spectrometry, RSC, 2002: Chemometrics in Analytical Chemistry 2002, Seattle, 22-26/09/2002; organizador B. M. Wise, Eigenvector (mismo teléfono y fax que la autorización de pago).",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2002/ja/b202320m",
+      "fecha": "2002"
+    },
+    {
+      "id": "F-hco1998",
+      "tipo": "prensa_sectorial",
+      "cita": "Aspen Rolls Out New Products, More Acquisitions. Hydrocarbon Online, 12/03/1998: Aspen IQ (módulo de DMCplus) y Aspen Multivariate 'represent the integration of the neural networking technology that Aspen obtained last year when it bought Neuralware, Inc.'",
+      "url": "https://www.hydrocarbononline.com/doc/aspen-rolls-out-new-products-more-acquisition-0001",
+      "fecha": "1998-03-12"
+    },
+    {
+      "id": "F-autor",
+      "tipo": "testimonio",
+      "cita": "Testimonio del autor (G. B. Sentoni)."
+    }
+  ],
+  "nodos": [
+    {
+      "id": "pre95",
+      "tipo": "publicacion",
+      "titulo": "On the Evaluation of a Certain Kind of Approximation Structure",
+      "anio": 1995,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-pre95"
+      ],
+      "paises": [
+        "AR"
+      ],
+      "organizaciones": [
+        "UNS"
+      ],
+      "etiqueta": "Paper 1995"
+    },
+    {
+      "id": "pre96",
+      "tipo": "publicacion",
+      "titulo": "Approximate Models for Nonlinear Process Control",
+      "anio": 1996,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-pre96"
+      ],
+      "paises": [
+        "AR"
+      ],
+      "organizaciones": [
+        "UNS"
+      ],
+      "etiqueta": "AIChE 1996"
+    },
+    {
+      "id": "eth96",
+      "tipo": "publicacion",
+      "titulo": "Gross Measurements Error Detection / Identification for an Industrial Ethylene Reactor",
+      "anio": 1996,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-eth96"
+      ],
+      "paises": [
+        "AR"
+      ],
+      "organizaciones": [
+        "UNS"
+      ],
+      "etiqueta": "Etileno 1996"
+    },
+    {
+      "id": "root",
+      "tipo": "tesis",
+      "titulo": "LNET: una estructura de aproximación para sistemas no lineales discretos",
+      "anio": 1997,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-tesis",
+        "F-cvar"
+      ],
+      "paises": [
+        "AR"
+      ],
+      "organizaciones": [
+        "UNS"
+      ],
+      "actores": [
+        "G. B. Sentoni",
+        "O. Agamennoni (dir.)"
+      ],
+      "etiqueta": "Tesis LNET"
+    },
+    {
+      "id": "cmu",
+      "tipo": "organizacion",
+      "titulo": "Carnegie Mellon University — investigador visitante (L. T. Biegler)",
+      "anio": 1997,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "B",
+      "fuentes": [
+        "F-cvar"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "CMU"
+      ],
+      "nota": "Período 1997-2000.",
+      "etiqueta": "CMU"
+    },
+    {
+      "id": "neuralware",
+      "tipo": "organizacion",
+      "titulo": "NeuralWare Inc. — consultoría en identificación no lineal",
+      "anio": 1997,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-cvar",
+        "F-liptak2006",
+        "F-us5477444"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "NeuralWare"
+      ],
+      "nota": "El autor trabajó en NeuralWare desde marzo de 1997 y, según su testimonio, contribuyó al controlador NeuCOP II y a Aspen Target. NeuCOP II, de NeuralWare como subsidiaria de AspenTech, era un control predictivo no lineal con redes neuronales cuyos resultados podían alimentar a DMCplus (Lipták, 2006).",
+      "etiqueta": "NeuralWare"
+    },
+    {
+      "id": "aspentech",
+      "tipo": "organizacion",
+      "titulo": "Aspen Technology — titular de las patentes y de la línea de productos",
+      "anio": 1997,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us6453308",
+        "F-cvar"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "AspenTech"
+      ],
+      "etiqueta": "AspenTech"
+    },
+    {
+      "id": "aiche98",
+      "tipo": "publicacion",
+      "titulo": "State Space Nonlinear Process Modeling: Identification and Universality (DABNet)",
+      "anio": 1998,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-aiche98"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "CMU",
+        "AspenTech"
+      ],
+      "actores": [
+        "Sentoni",
+        "Guiver",
+        "Zhao",
+        "Biegler"
+      ],
+      "etiqueta": "DABNet"
+    },
+    {
+      "id": "acc99",
+      "tipo": "publicacion",
+      "titulo": "Model Reduction for Nonlinear DABNet Models",
+      "anio": 1999,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-acc1999"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "CMU",
+        "AspenTech"
+      ],
+      "actores": [
+        "G. B. Sentoni",
+        "L. T. Biegler",
+        "J. P. Guiver"
+      ],
+      "nota": "Reducción del orden de los modelos DABNet por realización balanceada: se igualan los gramianos de controlabilidad y observabilidad y se descartan los estados de menor valor singular de Hankel (según el autor; el título lo indica).",
+      "etiqueta": "ACC 1999"
+    },
+    {
+      "id": "biegler",
+      "tipo": "publicacion",
+      "titulo": "Efficient Formulation and Solution of Nonlinear Model Predictive Control Problem",
+      "anio": 2000,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-laar2000"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "CMU"
+      ],
+      "etiqueta": "NMPC 2000"
+    },
+    {
+      "id": "icecs96",
+      "tipo": "publicacion",
+      "titulo": "On Orthogonal Parallel Realization for IIR Adaptive Filters (ICECS'96)",
+      "anio": 1996,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-icecs96"
+      ],
+      "paises": [
+        "AR",
+        "BR"
+      ],
+      "organizaciones": [
+        "UNS",
+        "UFRJ"
+      ],
+      "actores": [
+        "J. E. Cousseau",
+        "G. B. Sentoni",
+        "P. S. R. Diniz",
+        "O. Agamennoni"
+      ],
+      "etiqueta": "ICECS 1996"
+    },
+    {
+      "id": "ortho",
+      "tipo": "publicacion",
+      "titulo": "On Orthonormal Realizations for Adaptive IIR Filters",
+      "anio": 2000,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ijcta2000"
+      ],
+      "paises": [
+        "AR",
+        "BR"
+      ],
+      "organizaciones": [
+        "UNS",
+        "UFRJ"
+      ],
+      "etiqueta": "IIR ortonorm."
+    },
+    {
+      "id": "icassp2001",
+      "tipo": "publicacion",
+      "titulo": "Nonlinear Echo Cancellation Using Decoupled A-B Net Structure",
+      "anio": 2001,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-icassp2001"
+      ],
+      "etiqueta": "ICASSP 2001"
+    },
+    {
+      "id": "bookchap",
+      "tipo": "publicacion",
+      "titulo": "Inner-Outer Point Evaluation in a Deterministic Generalization Domain",
+      "anio": 2006,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-book2006"
+      ],
+      "paises": [
+        "AR"
+      ],
+      "organizaciones": [
+        "UNS"
+      ],
+      "etiqueta": "Cap. 2006"
+    },
+    {
+      "id": "p1",
+      "tipo": "patente",
+      "titulo": "US 6,453,308 — Non-linear dynamic predictive device",
+      "anio": 1998,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us6453308"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "AspenTech"
+      ],
+      "actores": [
+        "Zhao",
+        "Sentoni",
+        "Guiver"
+      ],
+      "anio_nota": "presentada 1998, otorgada 2002; vencida",
+      "etiqueta": "US Pat. 1998"
+    },
+    {
+      "id": "p2",
+      "tipo": "patente",
+      "titulo": "US 7,065,511 — Non-linear dynamic predictive device",
+      "anio": 2001,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us7065511"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "AspenTech"
+      ],
+      "actores": [
+        "Zhao",
+        "Sentoni",
+        "Guiver"
+      ],
+      "anio_nota": "presentada 2001, otorgada 2006; vencida",
+      "etiqueta": "US Pat. 2001"
+    },
+    {
+      "id": "aspentarget",
+      "tipo": "producto",
+      "titulo": "Aspen Target — primer controlador comercial",
+      "anio": 1999,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ifac99",
+        "F-qin2003",
+        "F-qin2002",
+        "F-cvar"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "AspenTech"
+      ],
+      "anio_nota": "presentado en el IFAC World Congress 1999 como 'recientemente desarrollado' por AspenTech; el CVar registra la consultoría para AspenTarget 1997-2000",
+      "etiqueta": "Aspen Target"
+    },
+    {
+      "id": "monot00",
+      "tipo": "software",
+      "titulo": "Identificación con redes neuronales con monotonía: método y software (CMU, con L. T. Biegler), para AspenTech",
+      "anio": 2000,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-mon2000-informe",
+        "F-mon2000-carta",
+        "F-cmu-dir2000"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "CMU",
+        "AspenTech"
+      ],
+      "actores": [
+        "G. B. Sentoni",
+        "L. T. Biegler",
+        "J. Guiver (AspenTech, solicitante)"
+      ],
+      "anio_nota": "enero de 2000 (informe y carta; fecha según los metadatos de los archivos originales)",
+      "nota": "Red de una capa oculta con monotonía garantizada por restricción de signo de los pesos, entrenada con datos de polímeros de Aspen y con los signos de ganancia pedidos por J. Guiver. Informe confidencial para AspenTech; no figura en las publicaciones del SS-BDN (2003, 2005).",
+      "etiqueta": "Monótonas 2000"
+    },
+    {
+      "id": "cac2002",
+      "tipo": "publicacion",
+      "titulo": "Monotonicity on Identification with Neural Nets (póster, CAC-2002, Seattle)",
+      "anio": 2002,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-cac2002-aceptacion",
+        "F-cac2002-charla",
+        "F-cac2002-manuscrito",
+        "F-cac2002-inscripcion",
+        "F-rsc2002"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "UADE",
+        "CMU"
+      ],
+      "actores": [
+        "G. B. Sentoni",
+        "L. T. Biegler"
+      ],
+      "anio_nota": "aceptado el 06/06/2002 y presentado en septiembre de 2002, un año antes de la primera publicación del SS-BDN (ACC 2003)",
+      "nota": "Presentación pública del método de 2000 en la sesión de pósters de la Eighth Conference on Chemometrics in Analytical Chemistry; aceptación confirmada por el organizador (B. M. Wise). Manuscrito candidato a Analytica Chimica Acta; no se registra publicación posterior.",
+      "etiqueta": "CAC 2002"
+    },
+    {
+      "id": "ifac99b",
+      "tipo": "publicacion",
+      "titulo": "An Identification Approach for Industrial Nonlinear Model Predictive Control (IFAC 1999, AspenTech)",
+      "anio": 1999,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ifac99b"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "AspenTech"
+      ],
+      "actores": [
+        "H. Zhao",
+        "J. Guiver",
+        "G. B. Sentoni",
+        "S. Lal"
+      ],
+      "nota": "Trabajo de AspenTech, con el autor como coautor, que presenta el método de identificación de su control predictivo no lineal; aplicado a un reactor de polietileno con transiciones de grado.",
+      "etiqueta": "IFAC 1999 (id.)"
+    },
+    {
+      "id": "bdnpat",
+      "tipo": "patente",
+      "titulo": "US 7,330,804 — red de derivadas acotadas: aproximador no lineal restringido (Turner, Guiver, Lines, Treiber; AspenTech)",
+      "anio": 2000,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us7330804"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "AspenTech"
+      ],
+      "actores": [
+        "P. Turner",
+        "J. Guiver",
+        "B. Lines",
+        "S. Treiber"
+      ],
+      "anio_nota": "prioridad 29/06/2000, cinco meses después del informe de monotonía entregado a J. Guiver; otorgada 2008",
+      "etiqueta": "US Pat. 2000 BDN"
+    },
+    {
+      "id": "ssbdn",
+      "tipo": "software",
+      "titulo": "SS-BDN: red de derivadas acotadas en espacio de estados (AspenTech), núcleo de Aspen Apollo",
+      "anio": 2003,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-acc2003",
+        "F-turner-bdn",
+        "F-jpc2005"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "AspenTech"
+      ],
+      "etiqueta": "SS-BDN"
+    },
+    {
+      "id": "nox99",
+      "tipo": "despliegue",
+      "titulo": "Central eléctrica — control de emisiones de NOx con Aspen Target",
+      "anio": 1999,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ifac99"
+      ],
+      "organizaciones": [
+        "AspenTech"
+      ],
+      "anio_nota": "aplicación industrial publicada en 1999; planta no identificada en el abstract",
+      "etiqueta": "NOx 1999"
+    },
+    {
+      "id": "apollo",
+      "tipo": "producto",
+      "titulo": "Aspen Apollo — controlador no lineal para polímeros",
+      "anio": 2002,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-pr2002",
+        "F-acc2003",
+        "F-turner-bdn",
+        "F-jpc2005"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "AspenTech"
+      ],
+      "resultados": [
+        {
+          "descripcion": "Adoptado por 28 plantas de polímeros en el mundo",
+          "anio": 2004,
+          "evidencia": "A",
+          "fuentes": [
+            "F-adi2004"
+          ]
+        }
+      ],
+      "etiqueta": "Aspen Apollo"
+    },
+    {
+      "id": "sabic",
+      "tipo": "despliegue",
+      "titulo": "SABIC Polyolefine, Gelsenkirchen — planta de polietileno",
+      "anio": 2002,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-pr2002"
+      ],
+      "paises": [
+        "DE"
+      ],
+      "organizaciones": [
+        "SABIC"
+      ],
+      "nota": "El árbol dibujado dice ~2005; el comunicado de 2002 ya lo da por implementado.",
+      "etiqueta": "SABIC"
+    },
+    {
+      "id": "sinopec",
+      "tipo": "despliegue",
+      "titulo": "Sinopec — Qilu, Beijing Yanshan y Shanghai (SPC)",
+      "anio": 2003,
+      "ambito": "industria",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-pr2003",
+        "F-adi2004"
+      ],
+      "paises": [
+        "CN"
+      ],
+      "organizaciones": [
+        "Sinopec"
+      ],
+      "resultados": [
+        {
+          "descripcion": "Sinopec Shanghai: 70% menos variabilidad de proceso y 50% menos tiempo de transición de grado",
+          "anio": 2007,
+          "evidencia": "A",
+          "fuentes": [
+            "F-pr2007"
+          ]
+        }
+      ],
+      "etiqueta": "Sinopec"
+    },
+    {
+      "id": "naidoo2007",
+      "tipo": "publicacion",
+      "titulo": "Experiences with Nonlinear MPC in Polymer Manufacturing",
+      "anio": 2007,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-naidoo2007"
+      ],
+      "paises": [
+        "ZA",
+        "US"
+      ],
+      "organizaciones": [
+        "Univ. of the Witwatersrand",
+        "AspenTech"
+      ],
+      "etiqueta": "LNCIS 2007"
+    },
+    {
+      "id": "drm2016",
+      "tipo": "software",
+      "titulo": "D-RM Builder (NETL / U.S. DOE)",
+      "anio": 2016,
+      "ambito": "gobierno",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ma2016"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "NETL",
+        "U.S. DOE",
+        "CMU"
+      ],
+      "etiqueta": "D-RM Builder"
+    },
+    {
+      "id": "acc2018",
+      "tipo": "publicacion",
+      "titulo": "Nonlinear MPC using Decoupled A-B Net Formulation for Carbon Capture Systems",
+      "anio": 2018,
+      "ambito": "gobierno",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-acc2018"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "NETL",
+        "U.S. DOE"
+      ],
+      "etiqueta": "ACC 2018"
+    },
+    {
+      "id": "iecr2022",
+      "tipo": "publicacion",
+      "titulo": "Hybrid Series/Parallel All-Nonlinear Dynamic-Static Neural Networks",
+      "anio": 2023,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-iecr2023"
+      ],
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "West Virginia University"
+      ],
+      "etiqueta": "IECR 2023"
+    },
+    {
+      "id": "foqus",
+      "tipo": "software",
+      "titulo": "FOQUS — plataforma abierta del U.S. DOE (CCSI)",
+      "anio": 2016,
+      "ambito": "gobierno",
+      "estado": "activo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ma2016",
+        "F-foqus"
+      ],
+      "activo_en": 2026,
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "U.S. DOE",
+        "NETL"
+      ],
+      "etiqueta": "FOQUS"
+    },
+    {
+      "id": "anc",
+      "tipo": "producto",
+      "titulo": "Aspen Nonlinear Controller",
+      "anio": 2026,
+      "ambito": "industria",
+      "estado": "activo",
+      "evidencia": "A",
+      "fuentes": [
+        "F-anc"
+      ],
+      "activo_en": 2026,
+      "paises": [
+        "US"
+      ],
+      "organizaciones": [
+        "AspenTech"
+      ],
+      "anio_nota": "año de lanzamiento no documentado; observado vigente en 2026",
+      "etiqueta": "ANC"
+    }
+  ],
+  "aristas": [
+    {
+      "desde": "pre95",
+      "hacia": "root",
+      "tipo": "precursor",
+      "evidencia": "A",
+      "fuentes": [
+        "F-tesis",
+        "F-pre95"
+      ],
+      "nota": "La tesis lo cita como [64]: el ejemplo de la sección 5.1.1 usa un sistema no lineal 'similar al presentado en [64]'. Mismos autores y misma estructura de aproximación."
+    },
+    {
+      "desde": "pre96",
+      "hacia": "root",
+      "tipo": "precursor",
+      "evidencia": "A",
+      "fuentes": [
+        "F-tesis",
+        "F-pre96"
+      ],
+      "nota": "La tesis lo cita como [65]: 'Una versión de dicho teorema fue preliminarmente demostrada por Sentoni y col. [65], siendo la versión completa la que se encuentra a continuación' (sec. 3.3, p. 70); la columna binaria de la sección 5.3 retoma resultados presentados en [65]."
+    },
+    {
+      "desde": "eth96",
+      "hacia": "root",
+      "tipo": "precursor",
+      "evidencia": "A",
+      "fuentes": [
+        "F-tesis",
+        "F-eth96",
+        "F-autor"
+      ],
+      "nota": "La tesis lo cita en sus conclusiones (cap. 5, p. 136, ref. [59]): para ajustar la LNet con datos ruidosos recomienda el algoritmo de propagación del error hacia atrás robusto, que Sánchez y col. usaron 'con notable éxito' con datos reales de un horno de craqueo de etileno, por ser poco sensible al sobreajuste. Según el autor, de ese trabajo salió además cómo ajustar con un número de puntos casi igual al de parámetros, con M-estimadores."
+    },
+    {
+      "desde": "root",
+      "hacia": "cmu",
+      "tipo": "contexto",
+      "evidencia": "B",
+      "fuentes": [
+        "F-cvar"
+      ]
+    },
+    {
+      "desde": "cmu",
+      "hacia": "aiche98",
+      "tipo": "contexto",
+      "evidencia": "B",
+      "fuentes": [
+        "F-aiche98"
+      ],
+      "nota": "Coautoría con L. T. Biegler (CMU)."
+    },
+    {
+      "desde": "cmu",
+      "hacia": "neuralware",
+      "tipo": "contexto",
+      "evidencia": "B",
+      "fuentes": [
+        "F-cvar"
+      ]
+    },
+    {
+      "desde": "neuralware",
+      "hacia": "aspentech",
+      "tipo": "contexto",
+      "evidencia": "A",
+      "fuentes": [
+        "F-hco1998"
+      ],
+      "nota": "AspenTech compró NeuralWare en 1997 e integró su tecnología de redes neuronales a DMCplus (Aspen IQ). Según el autor, el controlador de NeuralWare era NeuCOP (luego NeuCOP II), antecedente de Aspen Target."
+    },
+    {
+      "desde": "root",
+      "hacia": "aiche98",
+      "tipo": "derivacion_conceptual",
+      "evidencia": "A",
+      "fuentes": [
+        "F-aiche98",
+        "F-us6453308",
+        "F-us7065511",
+        "F-tesis"
+      ],
+      "nota": "Las patentes US 6,453,308 y US 7,065,511 lo afirman: la estructura desacoplada (DABNet) es un caso especial del enfoque de Sentoni et al. (1996), la LNet de la tesis, demostrado aproximador universal de procesos con memoria evanescente. Según el autor, las patentes repiten además la lista de referencias de la tesis. La tesis demuestra el teorema para el caso SISO (sec. 3.3, p. 70) y propone la extensión MISO (fig. 5.17, p. 125); DABNet lo lleva a MIMO en espacio de estados."
+    },
+    {
+      "desde": "aiche98",
+      "hacia": "biegler",
+      "tipo": "derivacion_conceptual",
+      "evidencia": "B",
+      "fuentes": [
+        "F-laar2000"
+      ]
+    },
+    {
+      "desde": "icecs96",
+      "hacia": "root",
+      "tipo": "precursor",
+      "evidencia": "A",
+      "fuentes": [
+        "F-tesis",
+        "F-icecs96"
+      ],
+      "nota": "La tesis lo cita como [14] en las conclusiones del cap. 5 (p. 135): las secciones ortogonales de segundo orden con polos distintos como base alternativa a Laguerre para sistemas muy oscilatorios, con la dificultad de estimar a la vez los polos y los pesos del perceptrón. Según el autor, intentó ese ajuste con redes neuronales."
+    },
+    {
+      "desde": "icecs96",
+      "hacia": "ortho",
+      "tipo": "documentacion",
+      "evidencia": "B",
+      "fuentes": [
+        "F-icecs96",
+        "F-ijcta2000"
+      ],
+      "nota": "Versión en revista del trabajo de congreso: mismos autores y el mismo tema (realizaciones ortogonales de filtros IIR adaptativos)."
+    },
+    {
+      "desde": "root",
+      "hacia": "ortho",
+      "tipo": "derivacion_conceptual",
+      "evidencia": "B",
+      "fuentes": [
+        "F-ijcta2000",
+        "F-tesis"
+      ],
+      "nota": "Mismo programa de bases ortonormales para modelos dinámicos: la tesis usa sistemas de Laguerre ortonormales (apéndice A) y discute las secciones ortogonales de [14] (p. 135); coautor O. Agamennoni. Pasa a A si el artículo de 2000 cita la tesis o la LNet."
+    },
+    {
+      "desde": "aiche98",
+      "hacia": "icassp2001",
+      "tipo": "derivacion_conceptual",
+      "evidencia": "A",
+      "fuentes": [
+        "F-icassp2001"
+      ],
+      "nota": "El título nombra explícitamente la estructura Decoupled A-B Net."
+    },
+    {
+      "desde": "root",
+      "hacia": "bookchap",
+      "tipo": "derivacion_conceptual",
+      "evidencia": "B",
+      "fuentes": [
+        "F-book2006"
+      ]
+    },
+    {
+      "desde": "aiche98",
+      "hacia": "p1",
+      "tipo": "ingenieria",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us6453308",
+        "F-aiche98"
+      ],
+      "nota": "La patente describe el mismo modelo DABNet: 'x(k)=Ax(k−1)+Bu(k), which has a simplified diagonal block structure' (filtros por entrada, desacoplados) seguido de la red neuronal, y cita a Sentoni et al. (1996) para la aproximación universal. Mismos autores (Zhao, Sentoni, Guiver); patente y artículo son el mismo desarrollo."
+    },
+    {
+      "desde": "aiche98",
+      "hacia": "p2",
+      "tipo": "ingenieria",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us7065511",
+        "F-us6453308",
+        "F-aiche98"
+      ],
+      "nota": "Continuación de US 6,453,308: el mismo modelo DABNet."
+    },
+    {
+      "desde": "root",
+      "hacia": "p1",
+      "tipo": "ingenieria",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us6453308"
+      ],
+      "nota": "La patente afirma que su estructura es un caso especial del enfoque de Sentoni et al. (1996), la LNet de la tesis, y demuestra la misma aproximación universal."
+    },
+    {
+      "desde": "root",
+      "hacia": "p2",
+      "tipo": "ingenieria",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us7065511"
+      ],
+      "nota": "Continuación de US 6,453,308, con la misma afirmación sobre Sentoni et al. (1996)."
+    },
+    {
+      "desde": "aspentech",
+      "hacia": "p1",
+      "tipo": "contexto",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us6453308"
+      ],
+      "nota": "Titular de la patente."
+    },
+    {
+      "desde": "aspentech",
+      "hacia": "p2",
+      "tipo": "contexto",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us7065511"
+      ],
+      "nota": "Titular de la patente."
+    },
+    {
+      "desde": "p1",
+      "hacia": "aspentarget",
+      "tipo": "comercializacion",
+      "evidencia": "B",
+      "fuentes": [
+        "F-ifac99",
+        "F-us6453308",
+        "F-cvar",
+        "F-autor"
+      ],
+      "nota": "Aspen Target usa el modelo de Zhao, Guiver y Sentoni (1998), el de la patente (IFAC 1999); el CVar registra el trabajo del autor para AspenTarget entre 1997 y 2000, que según el autor incluyó su desarrollo."
+    },
+    {
+      "desde": "aiche98",
+      "hacia": "aspentarget",
+      "tipo": "comercializacion",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ifac99",
+        "F-aiche98",
+        "F-qin2003",
+        "F-qin2002",
+        "F-acc2018"
+      ],
+      "nota": "IFAC 1999: Aspen Target usa el modelo en espacio de estados de Zhao, Guiver y Sentoni (1998), la formulación DABNet. Confirmación independiente y revisada por pares: Qin y Badgwell (2003) dicen que su dinámica se construye con filtros de primer orden o un modelo de Laguerre, y que aproxima cualquier proceso no lineal con memoria evanescente citando a Sentoni, Biegler, Guiver y Zhao (1998). Segunda confirmación independiente, del NETL (U.S. DOE, ACC 2018): 'Zhao et al. [6] had used the original DABNet-based black-box model as proposed in [1], in an industrial NMPC framework which uses an integrated partial least-squares and neural net model', con [1] = Sentoni et al. (1998) y [6] = Zhao et al. (2001), el artículo de Aspen Target."
+    },
+    {
+      "desde": "root",
+      "hacia": "ifac99b",
+      "tipo": "derivacion_conceptual",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ifac99b"
+      ],
+      "nota": "Construye la dinámica con un sistema de Laguerre y afirma la aproximación universal citando a Sentoni et al. (1996), la LNet de la tesis."
+    },
+    {
+      "desde": "aiche98",
+      "hacia": "ifac99b",
+      "tipo": "derivacion_conceptual",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ifac99b",
+        "F-aiche98"
+      ],
+      "nota": "Usa el modelo en espacio de estados de Sentoni, Biegler, Guiver y Zhao (1998) y lo cita; fija el orden del modelo con una realización internamente balanceada, la reducción desarrollada en la línea DABNet."
+    },
+    {
+      "desde": "ifac99b",
+      "hacia": "aspentarget",
+      "tipo": "ingenieria",
+      "evidencia": "B",
+      "fuentes": [
+        "F-ifac99b",
+        "F-ifac99"
+      ],
+      "nota": "Mismos autores de AspenTech (Zhao, Guiver) y el mismo modelo que el IFAC 1999 de Zhao, Guiver, Neelakantan y Biegler presenta como base de Aspen Target; este trabajo no nombra el producto."
+    },
+    {
+      "desde": "p1",
+      "hacia": "bdnpat",
+      "tipo": "ingenieria",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us7330804"
+      ],
+      "nota": "Sus entradas son los estados de modelos en espacio de estados como los de US 6,453,308, que la patente cita."
+    },
+    {
+      "desde": "monot00",
+      "hacia": "bdnpat",
+      "tipo": "ingenieria",
+      "evidencia": "B",
+      "fuentes": [
+        "F-us7330804",
+        "F-mon2000-carta",
+        "F-mon2000-informe"
+      ],
+      "nota": "Guiver, coinventor, recibió en enero de 2000 el informe y el software de redes neuronales con monotonía para datos de polímeros de Aspen; la patente, con prioridad cinco meses después, restringe un aproximador no lineal a ser monótono en procesos de polímeros y no cita ese trabajo."
+    },
+    {
+      "desde": "bdnpat",
+      "hacia": "apollo",
+      "tipo": "comercializacion",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us7330804"
+      ],
+      "nota": "'In a preferred embodiment, the controller is Aspen Apollo.'"
+    },
+    {
+      "desde": "bdnpat",
+      "hacia": "ssbdn",
+      "tipo": "documentacion",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us7330804",
+        "F-turner-bdn",
+        "F-acc2003",
+        "F-jpc2005"
+      ],
+      "nota": "La patente describe la 'bounded derivative network' alimentada con 'state vectors from [...] a state space model' (los de US 6,453,308); Turner y Guiver definen el SS-BDN exactamente así ('The Bounded Derivative Network can be easily extended to a state space dynamic model form by presenting state vectors at the input to the model'), lo llaman 'patent pending technology' y dicen que es el núcleo de Aspen Apollo, la realización preferida que nombra la patente."
+    },
+    {
+      "desde": "monot00",
+      "hacia": "ssbdn",
+      "tipo": "ingenieria",
+      "evidencia": "B",
+      "fuentes": [
+        "F-mon2000-carta",
+        "F-mon2000-informe",
+        "F-cac2002-manuscrito",
+        "F-acc2003",
+        "F-jpc2005",
+        "F-autor"
+      ],
+      "nota": "En enero de 2000 J. Guiver pidió y recibió modelos de red neuronal con ganancias de signo garantizado sobre datos de polímeros de Aspen; el SS-BDN (ACC 2003) apunta al control de transiciones en polímeros y Turner y Guiver (JPC 2005) presentan la red de derivadas acotadas para que el control predictivo tenga las ganancias correctas, sin citar este trabajo. Que el SS-BDN se haya construido sobre él es testimonio del autor; la cronología y el destinatario lo sostienen."
+    },
+    {
+      "desde": "monot00",
+      "hacia": "cac2002",
+      "tipo": "documentacion",
+      "evidencia": "A",
+      "fuentes": [
+        "F-mon2000-informe",
+        "F-cac2002-aceptacion",
+        "F-cac2002-manuscrito",
+        "F-cac2002-charla"
+      ],
+      "nota": "Mismo método (restricción de signo de los pesos) y la misma aplicación: 11 entradas con los mismos signos de ganancia."
+    },
+    {
+      "desde": "aiche98",
+      "hacia": "ssbdn",
+      "tipo": "derivacion_conceptual",
+      "evidencia": "B",
+      "fuentes": [
+        "F-jpc2005",
+        "F-aiche98"
+      ],
+      "nota": "El SS-BDN conserva la dinámica en espacio de estados de la línea DABNet y reemplaza la red estática por una de derivadas acotadas; mismo grupo (Guiver)."
+    },
+    {
+      "desde": "ssbdn",
+      "hacia": "anc",
+      "tipo": "comercializacion",
+      "evidencia": "B",
+      "fuentes": [
+        "F-jpc2005",
+        "F-kb2022"
+      ],
+      "nota": "Inferido: el JPC 2005 documenta el SS-BDN dentro de Aspen Apollo (Versteeg et al., Aspenworld 2002) y la base de conocimiento de AspenTech documenta la migración de los controladores Apollo; ningún documento revisado nombra el SS-BDN en el Aspen Nonlinear Controller."
+    },
+    {
+      "desde": "aspentarget",
+      "hacia": "nox99",
+      "tipo": "despliegue",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ifac99"
+      ],
+      "nota": "IFAC 1999: aplicación industrial exitosa en el control de emisiones de NOx de una central eléctrica."
+    },
+    {
+      "desde": "aspentarget",
+      "hacia": "apollo",
+      "tipo": "comercializacion",
+      "evidencia": "C",
+      "fuentes": [
+        "F-autor"
+      ],
+      "nota": "AspenTarget renombrado Apollo: testimonio del autor."
+    },
+    {
+      "desde": "p1",
+      "hacia": "apollo",
+      "tipo": "comercializacion",
+      "evidencia": "A",
+      "fuentes": [
+        "F-us7330804",
+        "F-pr2002",
+        "F-us6453308"
+      ],
+      "nota": "La patente US 7,330,804 de AspenTech describe el controlador Aspen Apollo (forma de realización preferida) usando modelos en espacio de estados como los de US 6,453,308; el comunicado de lanzamiento habla de 'patented technology'."
+    },
+    {
+      "desde": "p2",
+      "hacia": "apollo",
+      "tipo": "comercializacion",
+      "evidencia": "B",
+      "fuentes": [
+        "F-pr2002",
+        "F-us7065511"
+      ]
+    },
+    {
+      "desde": "apollo",
+      "hacia": "sabic",
+      "tipo": "despliegue",
+      "evidencia": "A",
+      "fuentes": [
+        "F-pr2002"
+      ]
+    },
+    {
+      "desde": "apollo",
+      "hacia": "sinopec",
+      "tipo": "despliegue",
+      "evidencia": "A",
+      "fuentes": [
+        "F-pr2003",
+        "F-adi2004"
+      ]
+    },
+    {
+      "desde": "apollo",
+      "hacia": "naidoo2007",
+      "tipo": "documentacion",
+      "evidencia": "B",
+      "fuentes": [
+        "F-naidoo2007"
+      ],
+      "nota": "Coautores de AspenTech y J. Guiver (coinventor); el resumen no nombra Apollo."
+    },
+    {
+      "desde": "apollo",
+      "hacia": "anc",
+      "tipo": "comercializacion",
+      "evidencia": "B",
+      "fuentes": [
+        "F-kb2022"
+      ],
+      "nota": "Continuidad técnica documentada (migración de controladores Apollo); el nombre sucesor es testimonio del autor."
+    },
+    {
+      "desde": "aiche98",
+      "hacia": "drm2016",
+      "tipo": "ingenieria",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ma2016"
+      ],
+      "nota": "DABNet es el tipo principal de modelo reducido del D-RM Builder."
+    },
+    {
+      "desde": "aiche98",
+      "hacia": "acc2018",
+      "tipo": "derivacion_conceptual",
+      "evidencia": "A",
+      "fuentes": [
+        "F-acc2018"
+      ],
+      "nota": "El paper dice que DABNet fue 'first proposed in [1]', con [1] = Sentoni, Biegler, Guiver y Zhao (1998)."
+    },
+    {
+      "desde": "drm2016",
+      "hacia": "acc2018",
+      "tipo": "documentacion",
+      "evidencia": "B",
+      "fuentes": [
+        "F-ma2016",
+        "F-acc2018"
+      ],
+      "nota": "Mismo laboratorio (NETL)."
+    },
+    {
+      "desde": "aiche98",
+      "hacia": "iecr2022",
+      "tipo": "documentacion",
+      "evidencia": "A",
+      "fuentes": [
+        "F-iecr2023"
+      ],
+      "nota": "El texto completo describe DABNet (dinámica con sistemas de Laguerre discretos y perceptrón estático), cita a Sentoni, Biegler y Guiver (ACC 1999) y lo usa como referencia de comparación de las redes LSTM y GRU: 'the current state-of-the-art DABNet'."
+    },
+    {
+      "desde": "aiche98",
+      "hacia": "acc99",
+      "tipo": "derivacion_conceptual",
+      "evidencia": "A",
+      "fuentes": [
+        "F-acc1999"
+      ],
+      "nota": "El título nombra los modelos DABNet. Secuencia: la tesis demuestra el teorema SISO y propone la extensión MISO; DABNet pasa a MIMO en espacio de estados y reduce el orden balanceando los gramianos."
+    },
+    {
+      "desde": "acc99",
+      "hacia": "iecr2022",
+      "tipo": "documentacion",
+      "evidencia": "A",
+      "fuentes": [
+        "F-iecr2023",
+        "F-acc1999"
+      ],
+      "nota": "IECR 2023 lo cita como referencia de DABNet [39]."
+    },
+    {
+      "desde": "drm2016",
+      "hacia": "iecr2022",
+      "tipo": "documentacion",
+      "evidencia": "A",
+      "fuentes": [
+        "F-iecr2023",
+        "F-ma2016"
+      ],
+      "nota": "Cita D-RM Builder (Ma et al. 2016) como fuente de DABNet."
+    },
+    {
+      "desde": "drm2016",
+      "hacia": "foqus",
+      "tipo": "ingenieria",
+      "evidencia": "A",
+      "fuentes": [
+        "F-ma2016",
+        "F-foqus"
+      ],
+      "nota": "D-RM Builder es un módulo de FOQUS."
+    }
+  ]
+}

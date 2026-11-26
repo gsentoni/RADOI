@@ -1,0 +1,346 @@
+{
+  "caso": "Árbol de impacto de la tesis LNET (UNS, 1997)",
+  "raiz": "root",
+  "anio_raiz": 1997,
+  "fecha_corte": "2026-10-02",
+  "estructura": {
+    "nodos": 32,
+    "aristas": 49,
+    "nodos_por_tipo": {
+      "publicacion": 15,
+      "tesis": 1,
+      "organizacion": 3,
+      "patente": 3,
+      "producto": 3,
+      "software": 4,
+      "despliegue": 3
+    },
+    "aristas_por_tipo": {
+      "precursor": 4,
+      "contexto": 6,
+      "derivacion_conceptual": 10,
+      "documentacion": 8,
+      "ingenieria": 10,
+      "comercializacion": 8,
+      "despliegue": 3
+    },
+    "evidencia_nodos": {
+      "A": 31,
+      "B": 1
+    },
+    "evidencia_aristas_derivacion": {
+      "A": 28,
+      "B": 14,
+      "C": 1
+    }
+  },
+  "perfil": {
+    "rezago_primer_resultado_no_academico_anios": 1,
+    "rezago_primera_adopcion_externa_anios": 2,
+    "persistencia_anios": 29,
+    "nodos_activos": [
+      "Aspen Nonlinear Controller (2026)",
+      "FOQUS — plataforma abierta del U.S. DOE (CCSI) (2026)"
+    ],
+    "alcance_paises": [
+      "AR",
+      "BR",
+      "CN",
+      "DE",
+      "US",
+      "ZA"
+    ],
+    "alcance_organizaciones": [
+      "AspenTech",
+      "CMU",
+      "NETL",
+      "SABIC",
+      "Sinopec",
+      "U.S. DOE",
+      "UFRJ",
+      "UNS",
+      "Univ. of the Witwatersrand",
+      "West Virginia University"
+    ],
+    "alcance_ambitos": [
+      "academico",
+      "gobierno",
+      "industria"
+    ],
+    "profundidad_eslabones": 5,
+    "profundidad_camino": [
+      "root -[derivacion_conceptual]-> aiche98",
+      "aiche98 -[ingenieria]-> p1",
+      "p1 -[ingenieria]-> bdnpat",
+      "bdnpat -[comercializacion]-> apollo",
+      "apollo -[despliegue]-> sinopec"
+    ],
+    "transferencia_proporcion": 0.64,
+    "transferencia_detalle": "14 de 22 resultados fuera de la academia",
+    "resultados_medidos": [
+      "2004: Adoptado por 28 plantas de polímeros en el mundo [A]",
+      "2007: Sinopec Shanghai: 70% menos variabilidad de proceso y 50% menos tiempo de transición de grado [A]"
+    ]
+  },
+  "cadenas": [
+    {
+      "nodo": "p1",
+      "titulo": "US 6,453,308 — Non-linear dynamic predictive device",
+      "evidencia_cadena": "A",
+      "camino": "root -> p1",
+      "eslabones_mas_debiles": [
+        "root->p1"
+      ]
+    },
+    {
+      "nodo": "aspentarget",
+      "titulo": "Aspen Target — primer controlador comercial",
+      "evidencia_cadena": "A",
+      "camino": "root -> aiche98 -> aspentarget",
+      "eslabones_mas_debiles": [
+        "root->aiche98",
+        "aiche98->aspentarget"
+      ]
+    },
+    {
+      "nodo": "nox99",
+      "titulo": "Central eléctrica — control de emisiones de NOx con Aspen Target",
+      "evidencia_cadena": "A",
+      "camino": "root -> aiche98 -> aspentarget -> nox99",
+      "eslabones_mas_debiles": [
+        "root->aiche98",
+        "aiche98->aspentarget",
+        "aspentarget->nox99"
+      ]
+    },
+    {
+      "nodo": "bdnpat",
+      "titulo": "US 7,330,804 — red de derivadas acotadas: aproximador no lineal restringido (Turner, Guiver, Lines, Treiber; AspenTech)",
+      "evidencia_cadena": "A",
+      "camino": "root -> p1 -> bdnpat",
+      "eslabones_mas_debiles": [
+        "root->p1",
+        "p1->bdnpat"
+      ]
+    },
+    {
+      "nodo": "p2",
+      "titulo": "US 7,065,511 — Non-linear dynamic predictive device",
+      "evidencia_cadena": "A",
+      "camino": "root -> p2",
+      "eslabones_mas_debiles": [
+        "root->p2"
+      ]
+    },
+    {
+      "nodo": "apollo",
+      "titulo": "Aspen Apollo — controlador no lineal para polímeros",
+      "evidencia_cadena": "A",
+      "camino": "root -> p1 -> apollo",
+      "eslabones_mas_debiles": [
+        "root->p1",
+        "p1->apollo"
+      ]
+    },
+    {
+      "nodo": "sabic",
+      "titulo": "SABIC Polyolefine, Gelsenkirchen — planta de polietileno",
+      "evidencia_cadena": "A",
+      "camino": "root -> p1 -> apollo -> sabic",
+      "eslabones_mas_debiles": [
+        "root->p1",
+        "p1->apollo",
+        "apollo->sabic"
+      ]
+    },
+    {
+      "nodo": "sinopec",
+      "titulo": "Sinopec — Qilu, Beijing Yanshan y Shanghai (SPC)",
+      "evidencia_cadena": "A",
+      "camino": "root -> p1 -> apollo -> sinopec",
+      "eslabones_mas_debiles": [
+        "root->p1",
+        "p1->apollo",
+        "apollo->sinopec"
+      ]
+    },
+    {
+      "nodo": "ssbdn",
+      "titulo": "SS-BDN: red de derivadas acotadas en espacio de estados (AspenTech), núcleo de Aspen Apollo",
+      "evidencia_cadena": "A",
+      "camino": "root -> p1 -> bdnpat -> ssbdn",
+      "eslabones_mas_debiles": [
+        "root->p1",
+        "p1->bdnpat",
+        "bdnpat->ssbdn"
+      ]
+    },
+    {
+      "nodo": "drm2016",
+      "titulo": "D-RM Builder (NETL / U.S. DOE)",
+      "evidencia_cadena": "A",
+      "camino": "root -> aiche98 -> drm2016",
+      "eslabones_mas_debiles": [
+        "root->aiche98",
+        "aiche98->drm2016"
+      ]
+    },
+    {
+      "nodo": "foqus",
+      "titulo": "FOQUS — plataforma abierta del U.S. DOE (CCSI)",
+      "evidencia_cadena": "A",
+      "camino": "root -> aiche98 -> drm2016 -> foqus",
+      "eslabones_mas_debiles": [
+        "root->aiche98",
+        "aiche98->drm2016",
+        "drm2016->foqus"
+      ]
+    },
+    {
+      "nodo": "anc",
+      "titulo": "Aspen Nonlinear Controller",
+      "evidencia_cadena": "B",
+      "camino": "root -> p1 -> apollo -> anc",
+      "eslabones_mas_debiles": [
+        "apollo->anc"
+      ]
+    }
+  ],
+  "eslabones_criticos": [
+    {
+      "arista": "ssbdn -> anc",
+      "evidencia_actual": "B",
+      "cadenas_que_mejoran": 1,
+      "nota": "Inferido: el JPC 2005 documenta el SS-BDN dentro de Aspen Apollo (Versteeg et al., Aspenworld 2002) y la base de conocimiento de AspenTech documenta la migración de los controladores Apollo; ningún documento revisado nombra el SS-BDN en el Aspen Nonlinear Controller."
+    },
+    {
+      "arista": "apollo -> anc",
+      "evidencia_actual": "B",
+      "cadenas_que_mejoran": 1,
+      "nota": "Continuidad técnica documentada (migración de controladores Apollo); el nombre sucesor es testimonio del autor."
+    }
+  ],
+  "cola_hipotesis": {
+    "fraccion_nodos": 0.2,
+    "nodos_en_la_cola": 5,
+    "resultados_totales": 22,
+    "proporcion_del_valor": 0.49,
+    "nodos": [
+      "Sinopec — Qilu, Beijing Yanshan y Shanghai (SPC)",
+      "Aspen Apollo — controlador no lineal para polímeros",
+      "Aspen Nonlinear Controller",
+      "Central eléctrica — control de emisiones de NOx con Aspen Target",
+      "SABIC Polyolefine, Gelsenkirchen — planta de polietileno"
+    ],
+    "valores": [
+      {
+        "id": "sinopec",
+        "valor": 9
+      },
+      {
+        "id": "apollo",
+        "valor": 8
+      },
+      {
+        "id": "anc",
+        "valor": 7.5
+      },
+      {
+        "id": "nox99",
+        "valor": 6
+      },
+      {
+        "id": "sabic",
+        "valor": 6
+      },
+      {
+        "id": "foqus",
+        "valor": 6
+      },
+      {
+        "id": "aspentarget",
+        "valor": 5
+      },
+      {
+        "id": "ssbdn",
+        "valor": 4
+      },
+      {
+        "id": "drm2016",
+        "valor": 4
+      },
+      {
+        "id": "p1",
+        "valor": 3
+      },
+      {
+        "id": "bdnpat",
+        "valor": 3
+      },
+      {
+        "id": "p2",
+        "valor": 3
+      },
+      {
+        "id": "aiche98",
+        "valor": 1
+      },
+      {
+        "id": "acc99",
+        "valor": 1
+      },
+      {
+        "id": "ifac99b",
+        "valor": 1
+      },
+      {
+        "id": "biegler",
+        "valor": 1
+      },
+      {
+        "id": "ortho",
+        "valor": 1
+      },
+      {
+        "id": "icassp2001",
+        "valor": 1
+      },
+      {
+        "id": "bookchap",
+        "valor": 1
+      },
+      {
+        "id": "naidoo2007",
+        "valor": 1
+      },
+      {
+        "id": "acc2018",
+        "valor": 1
+      },
+      {
+        "id": "iecr2022",
+        "valor": 1
+      }
+    ],
+    "sensibilidad": {
+      "min": 0.39,
+      "mediana": 0.51,
+      "max": 0.64,
+      "corridas": 2000,
+      "rango_pesos": "x0.5 a x1.5"
+    },
+    "pesos_declarados": {
+      "tesis": 1,
+      "publicacion": 1,
+      "formacion": 2,
+      "patente": 3,
+      "software": 4,
+      "producto": 5,
+      "despliegue": 6,
+      "empresa": 6,
+      "politica": 6
+    },
+    "factor_activo": 1.5,
+    "peso_resultado_medido": 3
+  }
+}
