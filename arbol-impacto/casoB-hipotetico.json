@@ -1,0 +1,136 @@
+{
+ "esquema": "arbol-impacto",
+ "version": "0.1",
+ "caso": {
+  "id": "hipB",
+  "titulo": "Caso hipotético B: transferencia discontinuada",
+  "autor": "X",
+  "raiz": "t",
+  "fecha_corte": "2026-09-29"
+ },
+ "fuentes": [
+  {
+   "id": "F1",
+   "tipo": "tesis",
+   "cita": "hipotético"
+  }
+ ],
+ "nodos": [
+  {
+   "id": "t",
+   "tipo": "tesis",
+   "titulo": "Tesis X",
+   "anio": 2010,
+   "ambito": "academico",
+   "estado": "inactivo",
+   "evidencia": "A",
+   "fuentes": [
+    "F1"
+   ]
+  },
+  {
+   "id": "a",
+   "tipo": "publicacion",
+   "titulo": "Paper derivado",
+   "anio": 2012,
+   "ambito": "academico",
+   "estado": "inactivo",
+   "evidencia": "A",
+   "fuentes": [
+    "F1"
+   ]
+  },
+  {
+   "id": "p",
+   "tipo": "patente",
+   "titulo": "Patente derivada",
+   "anio": 2013,
+   "ambito": "industria",
+   "estado": "inactivo",
+   "evidencia": "A",
+   "fuentes": [
+    "F1"
+   ],
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "Empresa Y"
+   ]
+  },
+  {
+   "id": "pr",
+   "tipo": "producto",
+   "titulo": "Producto de la empresa",
+   "anio": 2014,
+   "ambito": "industria",
+   "estado": "inactivo",
+   "evidencia": "A",
+   "fuentes": [
+    "F1"
+   ],
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "Empresa Y"
+   ]
+  },
+  {
+   "id": "dp",
+   "tipo": "despliegue",
+   "titulo": "Despliegue en una planta",
+   "anio": 2015,
+   "ambito": "industria",
+   "estado": "inactivo",
+   "evidencia": "B",
+   "fuentes": [
+    "F1"
+   ],
+   "paises": [
+    "AR"
+   ],
+   "organizaciones": [
+    "Planta Z"
+   ]
+  }
+ ],
+ "aristas": [
+  {
+   "desde": "t",
+   "hacia": "a",
+   "tipo": "derivacion_conceptual",
+   "evidencia": "A",
+   "fuentes": [
+    "F1"
+   ]
+  },
+  {
+   "desde": "t",
+   "hacia": "p",
+   "tipo": "ingenieria",
+   "evidencia": "A",
+   "fuentes": [
+    "F1"
+   ]
+  },
+  {
+   "desde": "p",
+   "hacia": "pr",
+   "tipo": "comercializacion",
+   "evidencia": "A",
+   "fuentes": [
+    "F1"
+   ]
+  },
+  {
+   "desde": "pr",
+   "hacia": "dp",
+   "tipo": "despliegue",
+   "evidencia": "B",
+   "fuentes": [
+    "F1"
+   ]
+  }
+ ]
+}

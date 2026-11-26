@@ -1,0 +1,55 @@
+{
+  "esquema": "arbol-impacto",
+  "version": "0.1",
+  "caso": {
+    "id": "test",
+    "titulo": "Caso hipotético A: sin adopción externa",
+    "autor": "X",
+    "raiz": "t",
+    "fecha_corte": "2026-09-29"
+  },
+  "fuentes": [
+    {
+      "id": "F1",
+      "tipo": "tesis",
+      "cita": "Tesis X"
+    }
+  ],
+  "nodos": [
+    {
+      "id": "t",
+      "tipo": "tesis",
+      "titulo": "Tesis X",
+      "anio": 2010,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    {
+      "id": "a",
+      "tipo": "publicacion",
+      "titulo": "Paper derivado",
+      "anio": 2012,
+      "ambito": "academico",
+      "estado": "inactivo",
+      "evidencia": "A",
+      "fuentes": [
+        "F1"
+      ]
+    }
+  ],
+  "aristas": [
+    {
+      "desde": "t",
+      "hacia": "a",
+      "tipo": "derivacion_conceptual",
+      "evidencia": "B",
+      "fuentes": [
+        "F1"
+      ]
+    }
+  ]
+}
