@@ -1,0 +1,40 @@
+{
+  "title": "Árbol de impacto v0: esquema de datos, grafos, código de cálculo y fuentes del caso LNET",
+  "upload_type": "dataset",
+  "version": "v1.0",
+  "language": "spa",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Sentoni, Guillermo Blas",
+      "affiliation": "Universidad Nacional de La Matanza",
+      "orcid": "0009-0006-9088-3717"
+    }
+  ],
+  "keywords": [
+    "evaluación de la investigación",
+    "transferencia tecnológica",
+    "grado de evidencia",
+    "indicadores reproducibles",
+    "posgrados en ingeniería",
+    "árbol de impacto"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20277611",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.20277491",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://gsentoni.github.io/RADOI/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "description": "<p>Material de respaldo del instrumento «árbol de impacto» (versión 0), propuesto para reconstruir la trayectoria de impacto de una tesis doctoral de ingeniería, y su aplicación a la tesis LNET (Universidad Nacional del Sur, 1997). Acompaña la exposición presentada ante la Red Argentina de Posgrados en Ingeniería (RADoI, CONFEDI) el 16 de octubre de 2026.</p><p>Contenido:</p><ul><li><code>arbol-impacto/</code>: esquema de datos; grafo de la tesis LNET (32 nodos, 49 vínculos y 45 fuentes); grafo de la carrera del doctor (19 nodos, 23 vínculos y 33 fuentes); casos hipotéticos A y B; código de cálculo de los indicadores (Python, sin dependencias externas); resultados y tablero visual.</li><li><code>respaldo/</code>: copias de las fuentes documentales citadas en los grafos.</li><li><code>index.html</code>: la exposición.</li></ul><p><strong>Derechos.</strong> La licencia CC BY 4.0 se aplica al esquema, los grafos, el código, los resultados y la exposición, de autoría de G. B. Sentoni. Los documentos de la carpeta <code>respaldo/</code> (patentes, comunicados de prensa, notas periodísticas, artículos, manuscritos y otras publicaciones) conservan los derechos de sus respectivos titulares, no quedan alcanzados por esa licencia y se incluyen solo como respaldo documental de los grafos.</p>"
+}
